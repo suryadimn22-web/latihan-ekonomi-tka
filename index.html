@@ -347,6 +347,31 @@ function formatPembahasanGabungan(q){
     .join("<br>");
 }
 
+// Versi lengkap: menampilkan teks jawaban (bukan cuma huruf opsi)
+function formatJawabanTeksLengkap(q, jw){
+  if(q.bentukSoal === "PGK MCMA"){
+    const sel = jw.opsi || [];
+    if(!sel.length) return "(tidak dijawab)";
+    return [...sel].sort().map(h => `${h}. ${q.opsi[h]}`).join("<br>");
+  }
+  if(q.bentukSoal === "PGK Kategori"){
+    if(!jw.opsi) return "(tidak dijawab)";
+    return optionLetters(q).map(h => `${h}. ${q.opsi[h]} — <b>${jw.opsi[h] || "(belum dijawab)"}</b>`).join("<br>");
+  }
+  if(!jw.opsi) return "(tidak dijawab)";
+  return `${jw.opsi}. ${q.opsi[jw.opsi]}`;
+}
+function formatKunciTeksLengkap(q){
+  if(q.bentukSoal === "PGK MCMA"){
+    return [...kunciMCMASet(q)].sort().map(h => `${h}. ${q.opsi[h]}`).join("<br>");
+  }
+  if(q.bentukSoal === "PGK Kategori"){
+    const k = kunciKategoriObj(q);
+    return optionLetters(q).map(h => `${h}. ${q.opsi[h]} — <b>${k[h]}</b>`).join("<br>");
+  }
+  return `${q.kunci}. ${q.opsi[q.kunci]}`;
+}
+
 /* ====================== MULAI SESI ====================== */
 document.getElementById("btn-mulai").addEventListener("click", () => {
   const nama = document.getElementById("inp-nama").value.trim();
@@ -548,7 +573,12 @@ document.getElementById("btn-cek").addEventListener("click", () => {
 function tampilkanPembahasan(q, jw){
   const box = document.getElementById("pembahasan-box");
   box.classList.remove("hidden");
-  let html = `<b>${jw.benar ? "✔ Jawaban benar" : "✘ Jawaban kurang tepat"}</b> — Kunci: <b>${formatKunci(q)}</b><br><br>`;
+  let html = `<b>${jw.benar ? "✔ Jawaban benar" : "✘ Jawaban kurang tepat"}</b><br><br>`;
+  html += `<b>Jawaban kamu:</b><br>${formatJawabanTeksLengkap(q, jw)}`;
+  if(!jw.benar){
+    html += `<br><br><b>Jawaban yang benar:</b><br>${formatKunciTeksLengkap(q)}`;
+  }
+  html += `<br><br>`;
   if(q.bentukSoal === "Pilihan Ganda"){
     html += (q.pembahasan && q.pembahasan[jw.opsi]) ? q.pembahasan[jw.opsi] : "";
   } else {
@@ -646,7 +676,10 @@ function selesaikanUjian(){
           <span class="${jw.benar ? 'badge-ok' : 'badge-no'}">${jw.benar ? "Benar" : "Salah"}</span>
         </div>
         <div class="soal-text" style="font-size:.88rem;margin-bottom:8px;">${q.soal}</div>
-        <div style="font-size:.85rem;">Jawaban kamu: <b>${formatJawabanSiswa(q, jw)}</b> · Kunci: <b>${formatKunci(q)}</b></div>
+        <div style="font-size:.85rem;">
+          <div><b>Jawaban kamu:</b><br>${formatJawabanTeksLengkap(q, jw)}</div>
+          ${!jw.benar ? `<div style="margin-top:6px;"><b>Jawaban yang benar:</b><br>${formatKunciTeksLengkap(q)}</div>` : ""}
+        </div>
         <div class="pembahasan-box" style="margin-top:8px;">${teksPembahasan}</div>
       </div>
     `;
