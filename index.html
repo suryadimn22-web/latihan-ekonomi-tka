@@ -137,6 +137,12 @@
 
   <!-- SCREEN 1: START -->
   <section id="screen-start" class="card">
+    <div id="wrap-kode">
+      <label for="inp-kode">Kode Akses dari Guru</label>
+      <input type="text" id="inp-kode" placeholder="Masukkan kode akses">
+      <div class="hint">Tanyakan kode akses ke guru Ekonomi. Cukup dimasukkan sekali di HP/laptop ini.</div>
+    </div>
+
     <label for="inp-nama">Nama Lengkap</label>
     <input type="text" id="inp-nama" placeholder="Tulis nama lengkap">
 
@@ -227,6 +233,16 @@
 /* ====================== KONFIGURASI ====================== */
 // Tempel URL Web App Google Apps Script di sini setelah deploy (lihat panduan).
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyFsn8Jh3yHlkMUxM8xdq_mG64DJCTiA-1tsUUykOMnr2JQQzAUXadm0Gc9vk1-G08/exec";
+
+// Kode akses — hanya siswa yang tahu kode ini yang bisa mulai latihan/ujian.
+// Ganti kode ini kapan saja lewat file index.html (cari ACCESS_CODE), lalu upload ulang ke GitHub.
+const ACCESS_CODE = "TKA-EKO-2026";
+function normalizeKode(s){ return (s || "").trim().toUpperCase().replace(/[^A-Z0-9]/g, ""); }
+const ACCESS_CODE_NORM = normalizeKode(ACCESS_CODE);
+if(localStorage.getItem("kodeAksesOk") === "1"){
+  const wk = document.getElementById("wrap-kode");
+  if(wk) wk.classList.add("hidden");
+}
 
 /* ====================== STATE ====================== */
 let BANK = null;               // { subElemen:[], soal:[] }
@@ -374,6 +390,15 @@ function formatKunciTeksLengkap(q){
 
 /* ====================== MULAI SESI ====================== */
 document.getElementById("btn-mulai").addEventListener("click", () => {
+  if(localStorage.getItem("kodeAksesOk") !== "1"){
+    const kodeInput = normalizeKode(document.getElementById("inp-kode").value);
+    if(kodeInput !== ACCESS_CODE_NORM){
+      alert("Kode akses salah atau belum diisi. Tanyakan kode akses yang benar ke guru Ekonomi.");
+      return;
+    }
+    localStorage.setItem("kodeAksesOk", "1");
+    document.getElementById("wrap-kode").classList.add("hidden");
+  }
   const nama = document.getElementById("inp-nama").value.trim();
   const kelas = document.getElementById("inp-kelas").value.trim();
   if(!nama || !kelas){
