@@ -25017,7 +25017,7 @@
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menganalisis pergeseran kurva keseimbangan pasar",
-   "soal": "Pada suatu pasar, kurva penawaran mula-mula berada di S1. Karena produsen meningkatkan kapasitas produksinya, kurva penawaran bergeser ke kanan menjadi S2 (penawaran bertambah pada setiap tingkat harga), sementara kurva permintaan tidak berubah. Titik keseimbangan bergeser dari E0 (perpotongan kurva permintaan dengan S1) ke E1 (perpotongan kurva permintaan dengan S2).\n\nPernyataan yang tepat mengenai perubahan keseimbangan tersebut adalah ....",
+   "soal": "Perhatikan kurva keseimbangan pasar berikut ini!\n\nKurva penawaran mula-mula berada di S1. Karena produsen meningkatkan kapasitas produksinya, kurva penawaran bergeser ke kanan menjadi S2, sementara kurva permintaan (D) tidak berubah. Titik keseimbangan bergeser dari E0 (perpotongan D dengan S1) ke E1 (perpotongan D dengan S2).\n\nPernyataan yang tepat mengenai perubahan keseimbangan tersebut adalah ....",
    "opsi": {
     "A": "Perubahan titik keseimbangan mengakibatkan penurunan harga keseimbangan di pasar",
     "B": "Perubahan keseimbangan disebabkan oleh penurunan permintaan masyarakat",
@@ -25032,7 +25032,8 @@
     "C": "Salah — yang terjadi adalah PENINGKATAN penawaran (bukan penurunan), dan dampaknya harga keseimbangan turun (bukan naik) — pernyataan ini salah pada dua sisi sekaligus.",
     "D": "Salah — peningkatan penawaran justru menaikkan jumlah keseimbangan (dari Q di E0 menjadi Q yang lebih besar di E1), bukan menurunkannya.",
     "E": "Salah — pergeseran dari S1 ke S2 pada ilustrasi mengarah ke KANAN (penawaran bertambah), bukan ke kiri atas (yang berarti penawaran berkurang)."
-   }
+   },
+   "gambar": "gambar/kurva-1007.png"
   },
   {
    "id": 1008,

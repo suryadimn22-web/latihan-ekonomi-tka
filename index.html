@@ -66,6 +66,8 @@
     border-radius:20px; background:#eef3f9; color:var(--navy-light); margin-bottom:10px;
   }
   .soal-text{font-size:.98rem; white-space:pre-wrap; margin-bottom:16px;}
+  .quiz-gambar{margin-bottom:16px;}
+  .quiz-gambar img{max-width:100%; height:auto; display:block; margin:0 auto; border:1px solid var(--border); border-radius:10px; background:#fff;}
   .opsi{
     display:flex; gap:10px; align-items:flex-start; padding:12px; border:1.5px solid var(--border);
     border-radius:10px; margin-bottom:10px; cursor:pointer; transition:.12s;
@@ -197,6 +199,7 @@
 
     <span class="tag" id="quiz-tag">Level</span>
     <div class="soal-text" id="quiz-soal"></div>
+    <div class="quiz-gambar hidden" id="quiz-gambar"></div>
     <div class="quiz-instruksi" id="quiz-instruksi"></div>
     <div id="quiz-opsi"></div>
 
@@ -463,6 +466,15 @@ function tampilkanSoal(){
   document.getElementById("quiz-tag").textContent = `${q.subElemenKode} · ${q.level || ""}`;
   document.getElementById("quiz-soal").textContent = q.soal;
 
+  const gambarEl = document.getElementById("quiz-gambar");
+  if(q.gambar){
+    gambarEl.innerHTML = `<img src="${q.gambar}" alt="Gambar soal ${idxSekarang+1}" loading="lazy">`;
+    gambarEl.classList.remove("hidden");
+  } else {
+    gambarEl.innerHTML = "";
+    gambarEl.classList.add("hidden");
+  }
+
   renderOpsiArea();
 
   const box = document.getElementById("pembahasan-box");
@@ -701,6 +713,7 @@ function selesaikanUjian(){
           <span class="${jw.benar ? 'badge-ok' : 'badge-no'}">${jw.benar ? "Benar" : "Salah"}</span>
         </div>
         <div class="soal-text" style="font-size:.88rem;margin-bottom:8px;">${q.soal}</div>
+        ${q.gambar ? `<div class="quiz-gambar"><img src="${q.gambar}" alt="Gambar soal ${i+1}" loading="lazy"></div>` : ""}
         <div style="font-size:.85rem;">
           <div><b>Jawaban kamu:</b><br>${formatJawabanTeksLengkap(q, jw)}</div>
           ${!jw.benar ? `<div style="margin-top:6px;"><b>Jawaban yang benar:</b><br>${formatKunciTeksLengkap(q)}</div>` : ""}
