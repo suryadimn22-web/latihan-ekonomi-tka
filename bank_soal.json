@@ -3,52 +3,57 @@
   {
    "kode": "01",
    "nama": "Konsep Dasar Ilmu Ekonomi (Kelangkaan, Biaya Peluang, dan Kegiatan Ekonomi)",
-   "jumlahSoal": 103
+   "jumlahSoal": 100
   },
   {
    "kode": "02",
    "nama": "Permintaan, Penawaran, dan Keseimbangan Pasar",
-   "jumlahSoal": 104
+   "jumlahSoal": 100
   },
   {
    "kode": "03",
    "nama": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
-   "jumlahSoal": 104
+   "jumlahSoal": 100
   },
   {
    "kode": "04",
    "nama": "Ketenagakerjaan",
-   "jumlahSoal": 102
+   "jumlahSoal": 100
   },
   {
    "kode": "05",
    "nama": "Indeks Harga dan Inflasi",
-   "jumlahSoal": 103
+   "jumlahSoal": 100
   },
   {
    "kode": "06",
    "nama": "Bank Sentral dan Kebijakan Moneter",
-   "jumlahSoal": 103
+   "jumlahSoal": 100
   },
   {
    "kode": "07",
    "nama": "Kebijakan Fiskal dan Perpajakan",
-   "jumlahSoal": 102
+   "jumlahSoal": 100
   },
   {
    "kode": "08",
    "nama": "Manajemen Badan Usaha dalam Perekonomian Indonesia (BUMN, BUMD, BUMS, dan Koperasi)",
-   "jumlahSoal": 103
+   "jumlahSoal": 100
   },
   {
    "kode": "09",
    "nama": "Kerja Sama Ekonomi dan Perdagangan Internasional",
-   "jumlahSoal": 103
+   "jumlahSoal": 100
   },
   {
    "kode": "10",
    "nama": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
-   "jumlahSoal": 103
+   "jumlahSoal": 100
+  },
+  {
+   "kode": "11",
+   "nama": "Bonus Soal Prediksi TKA Ekonomi I",
+   "jumlahSoal": 30
   }
  ],
  "soal": [
@@ -24856,9 +24861,9 @@
   },
   {
    "id": 1001,
-   "subElemenKode": "01",
-   "elemen": "Konsep Dasar Ilmu Ekonomi",
-   "subElemen": "Konsep Dasar Ilmu Ekonomi (Kelangkaan, Biaya Peluang, dan Kegiatan Ekonomi)",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menganalisis penyebab kelangkaan berdasarkan ilustrasi pasokan pangan",
@@ -24881,9 +24886,9 @@
   },
   {
    "id": 1002,
-   "subElemenKode": "01",
-   "elemen": "Konsep Dasar Ilmu Ekonomi",
-   "subElemen": "Konsep Dasar Ilmu Ekonomi (Kelangkaan, Biaya Peluang, dan Kegiatan Ekonomi)",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menghitung biaya peluang dari pilihan melanjutkan pendidikan",
@@ -24906,9 +24911,9 @@
   },
   {
    "id": 1003,
-   "subElemenKode": "01",
-   "elemen": "Konsep Dasar Ilmu Ekonomi",
-   "subElemen": "Konsep Dasar Ilmu Ekonomi (Kelangkaan, Biaya Peluang, dan Kegiatan Ekonomi)",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menganalisis solusi mengatasi kelangkaan air bersih akibat pencemaran",
@@ -24931,9 +24936,9 @@
   },
   {
    "id": 1004,
-   "subElemenKode": "02",
-   "elemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
-   "subElemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menganalisis dampak pergeseran permintaan dan penawaran secara bersamaan",
@@ -24956,9 +24961,9 @@
   },
   {
    "id": 1005,
-   "subElemenKode": "02",
-   "elemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
-   "subElemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menghitung perubahan jumlah permintaan akibat diskon harga",
@@ -24981,9 +24986,9 @@
   },
   {
    "id": 1006,
-   "subElemenKode": "02",
-   "elemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
-   "subElemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "PGK MCMA",
    "indikator": "Menghitung dan mengevaluasi dampak subsidi terhadap keseimbangan pasar",
@@ -25006,9 +25011,9 @@
   },
   {
    "id": 1007,
-   "subElemenKode": "02",
-   "elemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
-   "subElemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menganalisis pergeseran kurva keseimbangan pasar",
@@ -25031,9 +25036,9 @@
   },
   {
    "id": 1008,
-   "subElemenKode": "03",
-   "elemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
-   "subElemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menghitung Disposable Income dari komponen pendapatan nasional",
@@ -25056,9 +25061,9 @@
   },
   {
    "id": 1009,
-   "subElemenKode": "03",
-   "elemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
-   "subElemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK MCMA",
    "indikator": "Menganalisis faktor penyebab rendahnya pertumbuhan ekonomi",
@@ -25081,9 +25086,9 @@
   },
   {
    "id": 1010,
-   "subElemenKode": "03",
-   "elemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
-   "subElemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK Kategori",
    "indikator": "Menentukan benar/salah pernyataan berdasarkan data PDB dan TPT",
@@ -25104,9 +25109,9 @@
   },
   {
    "id": 1011,
-   "subElemenKode": "03",
-   "elemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
-   "subElemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK MCMA",
    "indikator": "Menganalisis perbandingan indikator pembangunan ekonomi antarnegara",
@@ -25129,9 +25134,9 @@
   },
   {
    "id": 1012,
-   "subElemenKode": "04",
-   "elemen": "Ketenagakerjaan",
-   "subElemen": "Ketenagakerjaan",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK Kategori",
    "indikator": "Menentukan benar/salah pernyataan tentang jenis-jenis pengangguran",
@@ -25152,9 +25157,9 @@
   },
   {
    "id": 1013,
-   "subElemenKode": "04",
-   "elemen": "Ketenagakerjaan",
-   "subElemen": "Ketenagakerjaan",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menyimpulkan hubungan tingkat pendidikan dengan pengangguran terbuka",
@@ -25177,9 +25182,9 @@
   },
   {
    "id": 1014,
-   "subElemenKode": "05",
-   "elemen": "Indeks Harga dan Inflasi",
-   "subElemen": "Indeks Harga dan Inflasi",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menganalisis faktor utama penyebab inflasi",
@@ -25202,9 +25207,9 @@
   },
   {
    "id": 1015,
-   "subElemenKode": "05",
-   "elemen": "Indeks Harga dan Inflasi",
-   "subElemen": "Indeks Harga dan Inflasi",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menghitung Indeks Harga Agregatif Sederhana",
@@ -25227,9 +25232,9 @@
   },
   {
    "id": 1016,
-   "subElemenKode": "05",
-   "elemen": "Indeks Harga dan Inflasi",
-   "subElemen": "Indeks Harga dan Inflasi",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menghitung dan menganalisis laju inflasi antar jenis barang",
@@ -25252,9 +25257,9 @@
   },
   {
    "id": 1017,
-   "subElemenKode": "06",
-   "elemen": "Bank Sentral dan Kebijakan Moneter",
-   "subElemen": "Bank Sentral dan Kebijakan Moneter",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK Kategori",
    "indikator": "Menentukan benar/salah pernyataan tentang peran bank sentral",
@@ -25275,9 +25280,9 @@
   },
   {
    "id": 1018,
-   "subElemenKode": "06",
-   "elemen": "Bank Sentral dan Kebijakan Moneter",
-   "subElemen": "Bank Sentral dan Kebijakan Moneter",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK MCMA",
    "indikator": "Menganalisis instrumen kebijakan moneter Bank Indonesia",
@@ -25300,9 +25305,9 @@
   },
   {
    "id": 1019,
-   "subElemenKode": "06",
-   "elemen": "Bank Sentral dan Kebijakan Moneter",
-   "subElemen": "Bank Sentral dan Kebijakan Moneter",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK MCMA",
    "indikator": "Menganalisis dampak kebijakan suku bunga acuan terhadap perekonomian",
@@ -25325,9 +25330,9 @@
   },
   {
    "id": 1020,
-   "subElemenKode": "07",
-   "elemen": "Kebijakan Fiskal dan Perpajakan",
-   "subElemen": "Kebijakan Fiskal dan Perpajakan",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Mengidentifikasi fungsi pajak dalam kebijakan insentif investasi",
@@ -25350,9 +25355,9 @@
   },
   {
    "id": 1021,
-   "subElemenKode": "07",
-   "elemen": "Kebijakan Fiskal dan Perpajakan",
-   "subElemen": "Kebijakan Fiskal dan Perpajakan",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK MCMA",
    "indikator": "Menganalisis karakteristik dan fungsi pajak kendaraan bermotor",
@@ -25375,9 +25380,9 @@
   },
   {
    "id": 1022,
-   "subElemenKode": "08",
-   "elemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia",
-   "subElemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia (BUMN, BUMD, BUMS, dan Koperasi)",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK MCMA",
    "indikator": "Menganalisis solusi strategi bersaing bagi badan usaha",
@@ -25400,9 +25405,9 @@
   },
   {
    "id": 1023,
-   "subElemenKode": "08",
-   "elemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia",
-   "subElemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia (BUMN, BUMD, BUMS, dan Koperasi)",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menganalisis solusi manajemen personalia dalam badan usaha",
@@ -25425,9 +25430,9 @@
   },
   {
    "id": 1024,
-   "subElemenKode": "08",
-   "elemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia",
-   "subElemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia (BUMN, BUMD, BUMS, dan Koperasi)",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menghitung pembagian Sisa Hasil Usaha (SHU) koperasi",
@@ -25450,9 +25455,9 @@
   },
   {
    "id": 1025,
-   "subElemenKode": "09",
-   "elemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
-   "subElemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Pemahaman (knowing)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Mengidentifikasi bentuk kerja sama ekonomi internasional",
@@ -25475,9 +25480,9 @@
   },
   {
    "id": 1026,
-   "subElemenKode": "09",
-   "elemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
-   "subElemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Pemahaman (knowing)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Mengidentifikasi kebijakan yang mendukung perdagangan internasional",
@@ -25500,9 +25505,9 @@
   },
   {
    "id": 1027,
-   "subElemenKode": "09",
-   "elemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
-   "subElemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penalaran (reasoning)",
    "bentukSoal": "PGK MCMA",
    "indikator": "Menganalisis daya saing produk ekspor Indonesia",
@@ -25525,9 +25530,9 @@
   },
   {
    "id": 1028,
-   "subElemenKode": "10",
-   "elemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
-   "subElemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "PGK Kategori",
    "indikator": "Menganalisis pengaruh transaksi jasa terhadap persamaan akuntansi",
@@ -25548,9 +25553,9 @@
   },
   {
    "id": 1029,
-   "subElemenKode": "10",
-   "elemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
-   "subElemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menghitung pengaruh transaksi terhadap persamaan dasar akuntansi",
@@ -25573,9 +25578,9 @@
   },
   {
    "id": 1030,
-   "subElemenKode": "10",
-   "elemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
-   "subElemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "subElemenKode": "11",
+   "elemen": "Bonus Soal Prediksi TKA Ekonomi I",
+   "subElemen": "Bonus Soal Prediksi TKA Ekonomi I",
    "level": "Penerapan (applying)",
    "bentukSoal": "Pilihan Ganda",
    "indikator": "Menghitung laba dan modal akhir dari laporan keuangan",
