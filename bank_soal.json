@@ -3,52 +3,52 @@
   {
    "kode": "01",
    "nama": "Konsep Dasar Ilmu Ekonomi (Kelangkaan, Biaya Peluang, dan Kegiatan Ekonomi)",
-   "jumlahSoal": 100
+   "jumlahSoal": 103
   },
   {
    "kode": "02",
    "nama": "Permintaan, Penawaran, dan Keseimbangan Pasar",
-   "jumlahSoal": 100
+   "jumlahSoal": 104
   },
   {
    "kode": "03",
    "nama": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
-   "jumlahSoal": 100
+   "jumlahSoal": 104
   },
   {
    "kode": "04",
    "nama": "Ketenagakerjaan",
-   "jumlahSoal": 100
+   "jumlahSoal": 102
   },
   {
    "kode": "05",
    "nama": "Indeks Harga dan Inflasi",
-   "jumlahSoal": 100
+   "jumlahSoal": 103
   },
   {
    "kode": "06",
    "nama": "Bank Sentral dan Kebijakan Moneter",
-   "jumlahSoal": 100
+   "jumlahSoal": 103
   },
   {
    "kode": "07",
    "nama": "Kebijakan Fiskal dan Perpajakan",
-   "jumlahSoal": 100
+   "jumlahSoal": 102
   },
   {
    "kode": "08",
    "nama": "Manajemen Badan Usaha dalam Perekonomian Indonesia (BUMN, BUMD, BUMS, dan Koperasi)",
-   "jumlahSoal": 100
+   "jumlahSoal": 103
   },
   {
    "kode": "09",
    "nama": "Kerja Sama Ekonomi dan Perdagangan Internasional",
-   "jumlahSoal": 100
+   "jumlahSoal": 103
   },
   {
    "kode": "10",
    "nama": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
-   "jumlahSoal": 100
+   "jumlahSoal": 103
   }
  ],
  "soal": [
@@ -24852,6 +24852,748 @@
     "A": "Benar — laba bersih dari laporan laba rugi memang digunakan sebagai salah satu komponen dalam menyusun laporan perubahan ekuitas (untuk menghitung modal akhir).",
     "B": "Benar — modal akhir dari laporan perubahan ekuitas memang digunakan sebagai komponen Ekuitas dalam penyusunan laporan posisi keuangan (neraca).",
     "C": "Salah — total Aset dalam laporan posisi keuangan harus selalu sama dengan penjumlahan total Kewajiban dan Ekuitas, sesuai persamaan dasar akuntansi Aset=Kewajiban+Ekuitas; jika tidak sama, berarti ada kesalahan pencatatan yang harus ditelusuri dan diperbaiki."
+   }
+  },
+  {
+   "id": 1001,
+   "subElemenKode": "01",
+   "elemen": "Konsep Dasar Ilmu Ekonomi",
+   "subElemen": "Konsep Dasar Ilmu Ekonomi (Kelangkaan, Biaya Peluang, dan Kegiatan Ekonomi)",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menganalisis penyebab kelangkaan berdasarkan ilustrasi pasokan pangan",
+   "soal": "Beberapa waktu yang lalu terjadi kelangkaan beras di beberapa wilayah di Indonesia. Pemerintah melakukan langkah-langkah untuk mengatasi kondisi tersebut sehingga pasokan beras di pasar dapat kembali normal.\n\nKelangkaan beras di pasar tersebut tidak disebabkan oleh ....",
+   "opsi": {
+    "A": "Fenomena El Nino yang mengakibatkan curah hujan lebih rendah",
+    "B": "Penurunan produksi gabah yang mengakibatkan harga gabah meningkat",
+    "C": "Hambatan dalam pengiriman beras dari produsen ke pasar",
+    "D": "Peningkatan penawaran beras di pasar akibat peningkatan produksi beras",
+    "E": "Terjadinya pergeseran musim tanam dan panen yang mengubah pola produksi"
+   },
+   "kunci": "D",
+   "pembahasan": {
+    "A": "Salah — fenomena El Nino menurunkan curah hujan sehingga produksi padi ikut turun; ini valid sebagai penyebab kelangkaan, bukan pengecualian yang dicari soal.",
+    "B": "Salah — penurunan produksi gabah mengurangi pasokan beras di pasar sehingga harga gabah naik; ini valid sebagai penyebab kelangkaan.",
+    "C": "Salah — hambatan distribusi membuat beras tidak sampai ke pasar meski produksinya tersedia; ini valid sebagai penyebab kelangkaan.",
+    "D": "Benar — soal meminta pengecualian (kondisi yang TIDAK menyebabkan kelangkaan). Peningkatan penawaran beras di pasar justru menambah pasokan dan meredakan kelangkaan, bukan menyebabkannya, sehingga inilah satu-satunya opsi yang tidak sesuai sebagai penyebab.",
+    "E": "Salah — pergeseran musim tanam dan panen mengubah pola produksi sehingga pasokan bisa terganggu; ini valid sebagai penyebab kelangkaan."
+   }
+  },
+  {
+   "id": 1002,
+   "subElemenKode": "01",
+   "elemen": "Konsep Dasar Ilmu Ekonomi",
+   "subElemen": "Konsep Dasar Ilmu Ekonomi (Kelangkaan, Biaya Peluang, dan Kegiatan Ekonomi)",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menghitung biaya peluang dari pilihan melanjutkan pendidikan",
+   "soal": "Ali telah lulus sarjana S1 dari salah satu perguruan tinggi, mendapat tawaran untuk bekerja di perusahaan percetakan dengan gaji Rp3.500.000,00 ditambah uang makan dan transport Rp1.500.000,00 per bulan, serta tawaran dari perusahaan jasa transportasi dengan gaji Rp3.700.000,00 ditambah uang makan Rp1.100.000,00 per bulan. Ia juga memperoleh tawaran beasiswa dari sponsor untuk melanjutkan kuliah S2. Sesuai saran orang tua dan kemauannya sendiri, Ali memutuskan memprioritaskan kuliah S2.\n\nBiaya peluang yang dikorbankan Ali dari keputusan tersebut adalah ....",
+   "opsi": {
+    "A": "Kemampuan akademis Ali setelah lulus S2 akan lebih baik dibandingkan lulus S1",
+    "B": "Tawaran beasiswa dari sponsor untuk kuliah S2 dan jaminan tempat kerja setelah lulus",
+    "C": "Ali kehilangan kesempatan kerja dan pendapatan sebesar Rp3.500.000,00 per bulan",
+    "D": "Ali kehilangan kesempatan kerja dan penghasilan sebesar Rp5.000.000,00 per bulan",
+    "E": "Ali kehilangan kesempatan kerja dan penghasilan sebesar Rp4.800.000,00 per bulan"
+   },
+   "kunci": "D",
+   "pembahasan": {
+    "A": "Salah — ini menggambarkan manfaat dari memilih kuliah S2, bukan sesuatu yang dikorbankan (bukan definisi biaya peluang).",
+    "B": "Salah — tawaran sponsor dan jaminan kerja adalah bagian dari pilihan yang DIAMBIL Ali, bukan alternatif yang dilepaskan, sehingga bukan biaya peluang.",
+    "C": "Salah — Rp3.500.000,00 hanya gaji pokok dari tawaran percetakan, belum termasuk uang makan dan transport Rp1.500.000,00; perhitungan penghasilan totalnya belum lengkap.",
+    "D": "Benar —<br>Langkah 1: hitung total penghasilan tiap tawaran kerja: percetakan = Rp3.500.000,00 + Rp1.500.000,00 = Rp5.000.000,00/bulan; jasa transportasi = Rp3.700.000,00 + Rp1.100.000,00 = Rp4.800.000,00/bulan.<br>Langkah 2: biaya peluang diambil dari alternatif TERBAIK yang dilepas, yaitu tawaran dengan penghasilan tertinggi.<br>Langkah 3: Rp5.000.000,00 (percetakan) lebih besar dari Rp4.800.000,00 (jasa transportasi), sehingga biaya peluang Ali adalah Rp5.000.000,00 per bulan.",
+    "E": "Salah — Rp4.800.000,00 adalah total penghasilan dari tawaran jasa transportasi, namun ini BUKAN alternatif terbaik yang dilepas karena nilainya lebih rendah dari tawaran percetakan (Rp5.000.000,00); biaya peluang harus diambil dari alternatif dengan nilai tertinggi."
+   }
+  },
+  {
+   "id": 1003,
+   "subElemenKode": "01",
+   "elemen": "Konsep Dasar Ilmu Ekonomi",
+   "subElemen": "Konsep Dasar Ilmu Ekonomi (Kelangkaan, Biaya Peluang, dan Kegiatan Ekonomi)",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menganalisis solusi mengatasi kelangkaan air bersih akibat pencemaran",
+   "soal": "Di beberapa kota besar sering terjadi kelangkaan air bersih yang disebabkan oleh pencemaran sungai akibat pembuangan limbah industri dan sampah oleh masyarakat di sekitarnya.\n\nLangkah yang paling tepat untuk mengatasi masalah kelangkaan tersebut adalah ....",
+   "opsi": {
+    "A": "Secara periodik mengadakan kegiatan membersihkan sungai dari sampah",
+    "B": "Membeli air mineral untuk memasak menggantikan air produksi PDAM",
+    "C": "Memberikan izin kepada produsen air mineral untuk menemukan sumber air baru",
+    "D": "PDAM menggunakan bahan-bahan kimia untuk membersihkan air sungai dari pencemaran",
+    "E": "Memberlakukan peraturan yang melarang pembuangan limbah industri dan sampah ke sungai"
+   },
+   "kunci": "E",
+   "pembahasan": {
+    "A": "Salah — membersihkan sungai secara berkala hanya mengatasi akibat sementara, sedangkan sumber pencemaran (limbah industri dan sampah) tetap terus berlangsung.",
+    "B": "Salah — membeli air mineral adalah solusi individu jangka pendek, tidak menyelesaikan akar masalah kelangkaan air bersih secara struktural.",
+    "C": "Salah — memberi izin mencari sumber air baru tidak menghentikan pencemaran sungai yang menjadi akar masalah, bahkan berpotensi menimbulkan masalah lingkungan baru.",
+    "D": "Salah — penggunaan bahan kimia untuk membersihkan air berisiko menimbulkan pencemaran baru dan tidak mencegah pencemaran berikutnya.",
+    "E": "Benar — regulasi yang melarang pembuangan limbah industri dan sampah ke sungai langsung menghilangkan sumber pencemaran, sehingga menjadi solusi paling tepat dan berkelanjutan untuk mengatasi kelangkaan air bersih."
+   }
+  },
+  {
+   "id": 1004,
+   "subElemenKode": "02",
+   "elemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "subElemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menganalisis dampak pergeseran permintaan dan penawaran secara bersamaan",
+   "soal": "Selera masyarakat terhadap produk yang ramah lingkungan mengalami peningkatan karena kesadaran akan pelestarian alam untuk generasi mendatang. Perubahan preferensi tersebut diikuti oleh peningkatan produksi produk ramah lingkungan oleh para produsen yang berlomba-lomba memperhatikan kelestarian lingkungan.\n\nJika persentase kenaikan permintaan dan penawaran produk ramah lingkungan tersebut sama besar, perubahan harga dan jumlah keseimbangan yang terjadi di pasar produk tersebut adalah ....",
+   "opsi": {
+    "A": "Harga keseimbangan meningkat dan jumlah keseimbangan meningkat",
+    "B": "Harga keseimbangan menurun dan jumlah keseimbangan menurun",
+    "C": "Harga keseimbangan menurun dan jumlah keseimbangan meningkat",
+    "D": "Harga keseimbangan tetap dan jumlah keseimbangan meningkat",
+    "E": "Harga keseimbangan meningkat dan jumlah keseimbangan tetap"
+   },
+   "kunci": "D",
+   "pembahasan": {
+    "A": "Salah — jika permintaan dan penawaran naik dengan persentase yang SAMA, kenaikan harga akibat naiknya permintaan akan tepat saling meniadakan dengan penurunan harga akibat naiknya penawaran, sehingga harga keseimbangan tidak ikut naik.",
+    "B": "Salah — pada ilustrasi, permintaan dan penawaran sama-sama MENINGKAT (bukan menurun), sehingga jumlah keseimbangan seharusnya naik, bukan turun.",
+    "C": "Salah — jika kenaikan persentase permintaan dan penawaran sama besar, secara matematis harga keseimbangan baru akan identik dengan harga keseimbangan lama (tidak berubah), bukan menurun.",
+    "D": "Benar —<br>Langkah 1: jika kurva permintaan dan penawaran mula-mula bertemu di titik (P, Q), lalu keduanya naik dengan persentase yang sama sebesar x%, maka fungsi permintaan dan penawaran baru sama-sama menjadi (1+x) kali fungsi semula.<br>Langkah 2: karena kedua sisi persamaan keseimbangan (Qd=Qs) dikalikan faktor yang sama, nilai P yang memenuhi persamaan tetap sama seperti sebelumnya — harga keseimbangan TIDAK berubah.<br>Langkah 3: sementara itu, jumlah keseimbangan baru menjadi (1+x) kali jumlah semula, artinya jumlah keseimbangan MENINGKAT.<br>Jadi, harga keseimbangan tetap dan jumlah keseimbangan meningkat.",
+    "E": "Salah — pada ilustrasi jumlah keseimbangan seharusnya ikut meningkat (karena permintaan dan penawaran sama-sama bertambah), bukan tetap."
+   }
+  },
+  {
+   "id": 1005,
+   "subElemenKode": "02",
+   "elemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "subElemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menghitung perubahan jumlah permintaan akibat diskon harga",
+   "soal": "Seorang siswa menganalisis permintaan sepatu dan sandal di sebuah toko. Fungsi permintaan sepatu diketahui Qd = 500.000 - 3P dan fungsi permintaan sandal Qd = 400.000 - 2P. Pada awalnya harga sepatu sebesar Rp150.000,00 dan harga sandal Rp95.000,00. Saat hari kemerdekaan, toko memberikan diskon sebesar 20% untuk sepatu dan 30% untuk sandal.\n\nPengaruh diskon tersebut terhadap jumlah permintaan sepatu dan sandal adalah ....",
+   "opsi": {
+    "A": "Jumlah permintaan sepatu meningkat 30.000 unit, sedangkan permintaan sandal meningkat 28.500 unit",
+    "B": "Jumlah permintaan sepatu meningkat 90.000 unit, sedangkan permintaan sandal meningkat 57.000 unit",
+    "C": "Jumlah permintaan sepatu meningkat menjadi 140.000 unit, sedangkan permintaan sandal meningkat menjadi 267.000 unit",
+    "D": "Jumlah permintaan sepatu meningkat menjadi 50.000 unit, sedangkan permintaan sandal meningkat menjadi 210.000 unit",
+    "E": "Jumlah permintaan sepatu meningkat menjadi 140.000 unit, sedangkan permintaan sandal meningkat menjadi 210.000 unit"
+   },
+   "kunci": "B",
+   "pembahasan": {
+    "A": "Salah — angka 30.000 dan 28.500 tidak sesuai dengan hasil perhitungan fungsi permintaan setelah harga didiskon.",
+    "B": "Benar —<br>Langkah 1: hitung harga baru setelah diskon: sepatu = Rp150.000,00 × (1 − 20%) = Rp120.000,00; sandal = Rp95.000,00 × (1 − 30%) = Rp66.500,00.<br>Langkah 2: hitung jumlah permintaan sepatu sebelum dan sesudah diskon: Q awal = 500.000 − 3(150.000) = 50.000 unit; Q baru = 500.000 − 3(120.000) = 140.000 unit → naik 90.000 unit.<br>Langkah 3: hitung jumlah permintaan sandal sebelum dan sesudah diskon: Q awal = 400.000 − 2(95.000) = 210.000 unit; Q baru = 400.000 − 2(66.500) = 267.000 unit → naik 57.000 unit.<br>Jadi permintaan sepatu naik 90.000 unit dan sandal naik 57.000 unit.",
+    "C": "Salah — 140.000 dan 267.000 adalah jumlah permintaan BARU (total setelah diskon), bukan besarnya kenaikan yang ditanyakan soal.",
+    "D": "Salah — 50.000 dan 210.000 adalah jumlah permintaan SEBELUM diskon, tertukar dengan kondisi awal, bukan hasil setelah diskon.",
+    "E": "Salah — angka 140.000 (total baru sepatu) sudah tepat, tetapi 210.000 untuk sandal adalah jumlah SEBELUM diskon, seharusnya 267.000 setelah diskon."
+   }
+  },
+  {
+   "id": 1006,
+   "subElemenKode": "02",
+   "elemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "subElemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "PGK MCMA",
+   "indikator": "Menghitung dan mengevaluasi dampak subsidi terhadap keseimbangan pasar",
+   "soal": "Diketahui fungsi permintaan suatu barang Qd = 250 − 2P dan fungsi penawaran Qs = −50 + P. Jika pemerintah memberikan subsidi sebesar 15 per unit kepada produsen barang tersebut, maka pernyataan yang tepat terkait perubahan keseimbangan pasar adalah .... (Jawaban benar lebih dari satu)",
+   "opsi": {
+    "A": "Harga keseimbangan sebelum subsidi sebesar 100",
+    "B": "Harga keseimbangan setelah subsidi sebesar 95",
+    "C": "Jumlah keseimbangan setelah subsidi lebih rendah 10 unit dibandingkan sebelum subsidi",
+    "D": "Jumlah keseimbangan setelah subsidi lebih rendah 5 unit dibandingkan sebelum subsidi",
+    "E": "Harga keseimbangan sebelum subsidi lebih tinggi dibandingkan setelah subsidi"
+   },
+   "kunci": "A, B, dan E",
+   "pembahasan": {
+    "A": "Benar —<br>Langkah 1: keseimbangan sebelum subsidi terjadi saat Qd = Qs: 250 − 2P = −50 + P.<br>Langkah 2: 300 = 3P, sehingga P = 100.<br>Jadi harga keseimbangan sebelum subsidi adalah 100, sesuai pernyataan ini.",
+    "B": "Benar —<br>Langkah 1: subsidi 15 per unit membuat harga yang diterima produsen menjadi (P + 15) untuk setiap harga pasar P.<br>Langkah 2: keseimbangan baru: 250 − 2P = −50 + (P + 15) → 250 − 2P = P − 35 → 285 = 3P → P = 95.<br>Jadi harga keseimbangan setelah subsidi adalah 95, sesuai pernyataan ini.",
+    "C": "Salah —<br>Langkah 1: jumlah keseimbangan sebelum subsidi: Q = 250 − 2(100) = 50 unit.<br>Langkah 2: jumlah keseimbangan setelah subsidi: Q = 250 − 2(95) = 60 unit.<br>Langkah 3: 60 unit lebih TINGGI 10 unit dibanding 50 unit, bukan lebih rendah — subsidi mendorong konsumsi/produksi bertambah, bukan berkurang, sehingga pernyataan ini terbalik arahnya.",
+    "D": "Salah — dengan alasan yang sama seperti poin C, jumlah keseimbangan justru naik (dari 50 menjadi 60 unit) setelah subsidi, bukan turun; arah pernyataan ini juga terbalik, dan selisihnya pun sebenarnya 10 unit, bukan 5 unit.",
+    "E": "Benar — harga keseimbangan sebelum subsidi (100) memang lebih tinggi dibandingkan setelah subsidi (95), karena subsidi menurunkan harga yang harus dibayar konsumen."
+   }
+  },
+  {
+   "id": 1007,
+   "subElemenKode": "02",
+   "elemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "subElemen": "Permintaan, Penawaran, dan Keseimbangan Pasar",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menganalisis pergeseran kurva keseimbangan pasar",
+   "soal": "Pada suatu pasar, kurva penawaran mula-mula berada di S1. Karena produsen meningkatkan kapasitas produksinya, kurva penawaran bergeser ke kanan menjadi S2 (penawaran bertambah pada setiap tingkat harga), sementara kurva permintaan tidak berubah. Titik keseimbangan bergeser dari E0 (perpotongan kurva permintaan dengan S1) ke E1 (perpotongan kurva permintaan dengan S2).\n\nPernyataan yang tepat mengenai perubahan keseimbangan tersebut adalah ....",
+   "opsi": {
+    "A": "Perubahan titik keseimbangan mengakibatkan penurunan harga keseimbangan di pasar",
+    "B": "Perubahan keseimbangan disebabkan oleh penurunan permintaan masyarakat",
+    "C": "Penurunan penawaran mengakibatkan peningkatan harga keseimbangan",
+    "D": "Jumlah keseimbangan mengalami penurunan akibat peningkatan penawaran",
+    "E": "Perubahan keseimbangan disebabkan pergeseran kurva penawaran ke kiri atas"
+   },
+   "kunci": "A",
+   "pembahasan": {
+    "A": "Benar — penawaran bertambah (S1 bergeser ke S2 ke arah kanan) sementara permintaan tetap, sehingga titik keseimbangan bergeser ke harga yang lebih rendah dan jumlah yang lebih besar; harga keseimbangan memang turun.",
+    "B": "Salah — pada ilustrasi yang bergeser adalah kurva PENAWARAN (S1 ke S2), sedangkan kurva permintaan dinyatakan tidak berubah.",
+    "C": "Salah — yang terjadi adalah PENINGKATAN penawaran (bukan penurunan), dan dampaknya harga keseimbangan turun (bukan naik) — pernyataan ini salah pada dua sisi sekaligus.",
+    "D": "Salah — peningkatan penawaran justru menaikkan jumlah keseimbangan (dari Q di E0 menjadi Q yang lebih besar di E1), bukan menurunkannya.",
+    "E": "Salah — pergeseran dari S1 ke S2 pada ilustrasi mengarah ke KANAN (penawaran bertambah), bukan ke kiri atas (yang berarti penawaran berkurang)."
+   }
+  },
+  {
+   "id": 1008,
+   "subElemenKode": "03",
+   "elemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "subElemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menghitung Disposable Income dari komponen pendapatan nasional",
+   "soal": "Negara Harina memiliki data pendapatan nasional sebagai berikut.\n\nGDP = Rp4.750 triliun\nGNP = Rp4.200 triliun\nPenyusutan barang modal = Rp375 triliun\nPajak tidak langsung = Rp280 triliun\nPajak langsung = Rp240 triliun\nIuran asuransi = Rp145 triliun\nLaba ditahan = Rp200 triliun\nTransfer payment = Rp325 triliun\n\nBesar Disposable Income Negara Harina adalah ....",
+   "opsi": {
+    "A": "Rp3.185 triliun",
+    "B": "Rp3.285 triliun",
+    "C": "Rp3.525 triliun",
+    "D": "Rp3.545 triliun",
+    "E": "Rp3.825 triliun"
+   },
+   "kunci": "B",
+   "pembahasan": {
+    "A": "Salah — Rp3.185 triliun tidak sesuai dengan alur perhitungan baku NNP → NNI → PI → DI; kemungkinan berasal dari kekeliruan urutan pengurangan komponen.",
+    "B": "Benar —<br>Langkah 1: NNP = GNP − Penyusutan = 4.200 − 375 = Rp3.825 triliun.<br>Langkah 2: NNI = NNP − Pajak tidak langsung = 3.825 − 280 = Rp3.545 triliun.<br>Langkah 3: PI = NNI − Laba ditahan − Iuran asuransi − Pajak langsung + Transfer payment = 3.545 − 200 − 145 − 240 + 325 = Rp3.285 triliun.<br>Langkah 4: karena pajak langsung sudah diperhitungkan pada tahap PI, maka Disposable Income = PI = Rp3.285 triliun.<br>Catatan: data GDP (Rp4.750 triliun) tidak diperlukan dalam perhitungan ini karena GNP sudah tersedia langsung sebagai titik awal.",
+    "C": "Salah — Rp3.525 triliun bukan hasil dari tahap manapun pada alur perhitungan baku NNP-NNI-PI-DI.",
+    "D": "Salah — Rp3.545 triliun adalah nilai NNI (Net National Income), bukan Disposable Income; ini jebakan bagi yang berhenti menghitung terlalu dini.",
+    "E": "Salah — Rp3.825 triliun adalah nilai NNP, bukan Disposable Income; ini jebakan bagi yang berhenti di tahap paling awal perhitungan."
+   }
+  },
+  {
+   "id": 1009,
+   "subElemenKode": "03",
+   "elemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "subElemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK MCMA",
+   "indikator": "Menganalisis faktor penyebab rendahnya pertumbuhan ekonomi",
+   "soal": "Ekonomi Indonesia secara makro mengalami pertumbuhan dari tahun 2024 ke tahun 2025. Meskipun demikian, pertumbuhan ekonomi pada tahun 2025 masih berkisar di angka 5%, sedangkan target pertumbuhan yang ditetapkan pemerintah sebesar 8%.\n\nFaktor-faktor yang menyebabkan pertumbuhan ekonomi masih berada di bawah target tersebut antara lain .... (Jawaban benar lebih dari satu)",
+   "opsi": {
+    "A": "Peningkatan konsumsi masyarakat di dalam negeri",
+    "B": "Perlambatan pertumbuhan ekspor karena rendahnya permintaan luar negeri",
+    "C": "Penurunan investasi swasta dalam berbagai sektor ekonomi",
+    "D": "Sinergi yang baik antara kebijakan fiskal dan moneter di dalam negeri",
+    "E": "Pengendalian impor yang menghasilkan surplus pada neraca perdagangan"
+   },
+   "kunci": "B dan C",
+   "pembahasan": {
+    "A": "Salah — konsumsi masyarakat adalah salah satu komponen pendorong PDB (permintaan agregat); jika konsumsi meningkat, seharusnya justru mendorong pertumbuhan naik, bukan menahannya.",
+    "B": "Benar — ekspor yang melambat karena rendahnya permintaan luar negeri mengurangi kontribusi net ekspor terhadap PDB, sehingga menahan laju pertumbuhan ekonomi.",
+    "C": "Benar — investasi swasta adalah salah satu komponen utama PDB; penurunannya di berbagai sektor langsung memperlambat pertumbuhan ekonomi.",
+    "D": "Salah — sinergi kebijakan fiskal dan moneter yang baik seharusnya justru MENDUKUNG pertumbuhan ekonomi, bukan menghambatnya; pernyataan ini bertentangan dengan premis bahwa pertumbuhan masih rendah.",
+    "E": "Salah — surplus neraca perdagangan bersifat positif bagi perekonomian dan mendukung pertumbuhan, bukan menjadi penyebab pertumbuhan yang rendah."
+   }
+  },
+  {
+   "id": 1010,
+   "subElemenKode": "03",
+   "elemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "subElemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK Kategori",
+   "indikator": "Menentukan benar/salah pernyataan berdasarkan data PDB dan TPT",
+   "soal": "Perhatikan data Produk Domestik Bruto (PDB) dan Tingkat Pengangguran Terbuka (TPT) Indonesia tahun 2021-2025 berikut.\n\nTahun 2021: PDB 1,19 juta dolar, TPT 6,26%\nTahun 2022: PDB 1,32 juta dolar, TPT 5,83%\nTahun 2023: PDB 1,37 juta dolar, TPT 5,45%\nTahun 2024: PDB 1,40 juta dolar, TPT 4,82%\nTahun 2025: PDB 1,43 juta dolar, TPT 4,76%\n\nTentukan Benar atau Salah untuk setiap pernyataan berikut berdasarkan data tersebut.",
+   "opsi": {
+    "A": "Ekonomi Indonesia mengalami pertumbuhan dari tahun 2021 hingga tahun 2025",
+    "B": "Tingkat pengangguran di Indonesia mengalami penurunan dari tahun 2021 hingga tahun 2025",
+    "C": "Pertumbuhan ekonomi Indonesia pada periode tersebut berbasis pada investasi padat modal",
+    "D": null,
+    "E": null
+   },
+   "kunci": "A. Benar, B. Benar, C. Salah",
+   "pembahasan": {
+    "A": "Benar — nilai PDB naik konsisten setiap tahun dari 1,19 juta dolar (2021) hingga 1,43 juta dolar (2025), menunjukkan perekonomian terus tumbuh selama periode tersebut.",
+    "B": "Benar — TPT turun konsisten setiap tahun dari 6,26% (2021) menjadi 4,76% (2025), menunjukkan tingkat pengangguran terus menurun.",
+    "C": "Salah — data yang tersedia hanya berupa PDB dan TPT, tidak memuat informasi mengenai komposisi investasi (padat modal atau padat karya); kesimpulan ini tidak dapat ditarik dari data yang diberikan."
+   }
+  },
+  {
+   "id": 1011,
+   "subElemenKode": "03",
+   "elemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "subElemen": "Pendapatan Nasional, Pertumbuhan Ekonomi, dan Pembangunan Ekonomi",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK MCMA",
+   "indikator": "Menganalisis perbandingan indikator pembangunan ekonomi antarnegara",
+   "soal": "Perhatikan data indikator ekonomi Indonesia dan Thailand pada tahun 2025 berikut.\n\nPertumbuhan ekonomi: Indonesia 5,11%, Thailand 2,4%\nIndeks Pembangunan Manusia: Indonesia 75,90, Thailand 80,30\nKoefisien Gini: Indonesia 0,363, Thailand 0,333\nPendapatan per kapita: Indonesia US$5.083, Thailand US$6.586\n\nPernyataan yang tepat untuk menggambarkan kondisi pembangunan ekonomi kedua negara tersebut adalah .... (Jawaban benar lebih dari satu)",
+   "opsi": {
+    "A": "IPM Indonesia dan Thailand sama-sama termasuk dalam kategori tinggi",
+    "B": "Ketimpangan pendapatan di Thailand lebih besar dibandingkan di Indonesia",
+    "C": "Indonesia dan Thailand termasuk kategori negara berpendapatan menengah ke atas",
+    "D": "Tingkat kesejahteraan masyarakat Thailand lebih baik dibandingkan Indonesia",
+    "E": "Perlambatan pertumbuhan ekonomi Thailand tidak selalu berarti pembangunan ekonominya tertinggal dari Indonesia"
+   },
+   "kunci": "C, D, dan E",
+   "pembahasan": {
+    "A": "Salah — berdasarkan klasifikasi IPM (70–79,99 = tinggi, ≥80 = sangat tinggi), IPM Indonesia (75,90) memang berkategori tinggi, tetapi IPM Thailand (80,30) sudah masuk kategori SANGAT TINGGI, sehingga menyamaratakan keduanya sebagai 'tinggi' kurang tepat.",
+    "B": "Salah — koefisien Gini Indonesia (0,363) lebih tinggi dibandingkan Thailand (0,333); semakin tinggi koefisien Gini semakin besar ketimpangan, sehingga justru Indonesia yang ketimpangannya lebih besar, bukan Thailand.",
+    "C": "Benar — pendapatan per kapita Indonesia (US$5.083) dan Thailand (US$6.586) sama-sama berada pada rentang negara berpendapatan menengah ke atas (upper-middle income) menurut klasifikasi umum Bank Dunia.",
+    "D": "Benar — Thailand unggul pada tiga indikator sekaligus: IPM lebih tinggi, pendapatan per kapita lebih tinggi, dan koefisien Gini lebih rendah (ketimpangan lebih kecil), yang secara keseluruhan mencerminkan kesejahteraan yang lebih baik.",
+    "E": "Benar — meskipun pertumbuhan ekonomi Thailand (2,4%) lebih rendah dari Indonesia (5,11%), indikator pembangunannya (IPM, pendapatan per kapita, Gini) tetap lebih baik, menunjukkan bahwa laju pertumbuhan tidak selalu sejalan dengan tingkat pembangunan yang telah dicapai."
+   }
+  },
+  {
+   "id": 1012,
+   "subElemenKode": "04",
+   "elemen": "Ketenagakerjaan",
+   "subElemen": "Ketenagakerjaan",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK Kategori",
+   "indikator": "Menentukan benar/salah pernyataan tentang jenis-jenis pengangguran",
+   "soal": "Jumlah pengangguran di Indonesia pada bulan Februari 2025 tercatat sebesar 7,28 juta orang dari berbagai latar belakang pendidikan dan usia, dengan penduduk usia produktif sekitar 196,13 juta orang dan angkatan kerja sebesar 153,05 juta orang.\n\nTentukan Benar atau Salah untuk setiap pernyataan berikut mengenai jenis pengangguran.",
+   "opsi": {
+    "A": "Penurunan kondisi ekonomi (resesi) yang menyebabkan pemutusan hubungan kerja secara luas tergolong pengangguran struktural",
+    "B": "Perubahan fungsi lahan dari pertanian ke industri yang mengubah struktur kegiatan ekonomi dapat menghasilkan pengangguran struktural",
+    "C": "Seseorang yang memilih untuk tidak bekerja meskipun tersedia lowongan yang sesuai kemampuannya tergolong pengangguran sukarela",
+    "D": null,
+    "E": null
+   },
+   "kunci": "A. Salah, B. Benar, C. Benar",
+   "pembahasan": {
+    "A": "Salah — penurunan kondisi ekonomi/resesi yang menyebabkan PHK massal menggambarkan pengangguran SIKLIS (konjungtur), bukan struktural. Pengangguran struktural muncul dari perubahan struktur ekonomi/industri yang membuat keahlian pekerja tidak lagi relevan, bukan sekadar perlambatan ekonomi.",
+    "B": "Benar — perubahan fungsi lahan mengubah STRUKTUR kegiatan ekonomi suatu wilayah (misalnya dari agraris ke industri), sehingga tenaga kerja lama tidak lagi sesuai dengan kebutuhan baru; inilah ciri khas pengangguran struktural.",
+    "C": "Benar — pengangguran sukarela terjadi ketika seseorang secara sadar memilih untuk tidak bekerja meski ada kesempatan kerja yang sesuai kemampuannya tersedia, sesuai definisi baku."
+   }
+  },
+  {
+   "id": 1013,
+   "subElemenKode": "04",
+   "elemen": "Ketenagakerjaan",
+   "subElemen": "Ketenagakerjaan",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menyimpulkan hubungan tingkat pendidikan dengan pengangguran terbuka",
+   "soal": "Perhatikan data Tingkat Pengangguran Terbuka (TPT) berdasarkan jenjang pendidikan berikut.\n\nSD: 2,30%\nSMP: 3,80%\nSMA: 6,88%\nSMK: 8,63%\nDiploma: 4,31%\nUniversitas: 5,39%\n\nKesimpulan yang paling tepat mengenai tingkat pengangguran terbuka di Indonesia berdasarkan data tersebut adalah ....",
+   "opsi": {
+    "A": "Jumlah penduduk lulusan SD banyak yang memutuskan masuk ke pasar kerja sehingga meningkatkan jumlah pengangguran",
+    "B": "Penduduk lulusan SMP banyak yang memilih menjadi wirausaha sehingga tidak menyumbang jumlah pengangguran yang tinggi",
+    "C": "Pengangguran tertinggi berasal dari lulusan universitas karena banyak lulusannya yang diterima dalam dunia kerja",
+    "D": "Tingginya TPT lulusan SMK menunjukkan adanya mismatch antara kurikulum vokasi dengan kebutuhan dunia kerja",
+    "E": "Semakin rendah jenjang pendidikan, semakin tinggi tingkat pengangguran di Indonesia"
+   },
+   "kunci": "D",
+   "pembahasan": {
+    "A": "Salah — data menunjukkan TPT lulusan SD justru PALING RENDAH (2,30%) di antara semua jenjang, bertentangan dengan klaim bahwa lulusan SD banyak menganggur.",
+    "B": "Salah — tabel tidak memuat data mengenai wirausaha sama sekali; kesimpulan sebab-akibat ini tidak dapat ditarik dari data yang tersedia.",
+    "C": "Salah — TPT lulusan universitas (5,39%) bukan yang tertinggi (kalah dari SMK 8,63% dan SMA 6,88%), dan pernyataan 'banyak diterima kerja' justru bertentangan dengan klaim 'pengangguran tertinggi'.",
+    "D": "Benar — TPT lulusan SMK justru PALING TINGGI (8,63%) meski SMK berorientasi vokasi yang seharusnya paling siap kerja; fenomena ini umum dikaitkan dengan ketidaksesuaian (mismatch) antara kompetensi yang diajarkan kurikulum dengan kebutuhan riil dunia industri.",
+    "E": "Salah — data tidak menunjukkan pola linear seperti itu; TPT SD (jenjang terendah) justru paling rendah, bertentangan dengan pola 'semakin rendah pendidikan semakin tinggi pengangguran' yang diklaim."
+   }
+  },
+  {
+   "id": 1014,
+   "subElemenKode": "05",
+   "elemen": "Indeks Harga dan Inflasi",
+   "subElemen": "Indeks Harga dan Inflasi",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menganalisis faktor utama penyebab inflasi",
+   "soal": "Badan Pusat Statistik (BPS) mencatat peningkatan harga barang di pasar yang dipengaruhi oleh kenaikan biaya produksi sektor industri. Penyumbang terbesar inflasi berasal dari kenaikan tarif dasar listrik, terutama tarif listrik bagi industri.\n\nFaktor utama yang menyebabkan inflasi pada kasus tersebut adalah ....",
+   "opsi": {
+    "A": "Peningkatan pendapatan dan daya beli masyarakat",
+    "B": "Pelemahan nilai kurs mata uang domestik",
+    "C": "Peningkatan biaya produksi sektor industri",
+    "D": "Peningkatan jumlah pengangguran di dalam negeri",
+    "E": "Penurunan jumlah uang beredar di dalam negeri"
+   },
+   "kunci": "C",
+   "pembahasan": {
+    "A": "Salah — peningkatan pendapatan dan daya beli menggambarkan demand-pull inflation, sedangkan ilustrasi jelas menyebutkan sumber kenaikan harga berasal dari sisi biaya produksi, bukan sisi permintaan.",
+    "B": "Salah — pelemahan kurs menggambarkan imported inflation (kenaikan harga barang impor), yang tidak disebutkan sama sekali dalam ilustrasi.",
+    "C": "Benar — kenaikan tarif dasar listrik bagi industri menaikkan biaya produksi sektor industri, yang kemudian diteruskan produsen menjadi kenaikan harga jual barang; ini contoh cost-push inflation, sesuai ilustrasi.",
+    "D": "Salah — peningkatan pengangguran tidak memiliki kaitan sebab-akibat langsung dengan kenaikan harga pada ilustrasi ini.",
+    "E": "Salah — penurunan jumlah uang beredar biasanya MEREDAM inflasi (kebijakan uang ketat), bukan menyebabkannya; arah hubungan pada opsi ini terbalik."
+   }
+  },
+  {
+   "id": 1015,
+   "subElemenKode": "05",
+   "elemen": "Indeks Harga dan Inflasi",
+   "subElemen": "Indeks Harga dan Inflasi",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menghitung Indeks Harga Agregatif Sederhana",
+   "soal": "Diketahui harga dan jumlah tiga jenis barang pada tahun 2022 dan 2023 berikut.\n\nTelur: harga 2022 Rp28.000,00, harga 2023 Rp35.000,00, jumlah 2022 20, jumlah 2023 22\nMinyak goreng: harga 2022 Rp21.000,00, harga 2023 Rp25.000,00, jumlah 2022 15, jumlah 2023 18\nBeras: harga 2022 Rp65.000,00, harga 2023 Rp75.000,00, jumlah 2022 10, jumlah 2023 12\n\nNilai indeks harga pada tahun 2023 (2022 sebagai tahun dasar) jika dihitung menggunakan Indeks Harga Agregatif Sederhana adalah ....",
+   "opsi": {
+    "A": "118,42",
+    "B": "119,50",
+    "C": "119,58",
+    "D": "119,59",
+    "E": "119,67"
+   },
+   "kunci": "A",
+   "pembahasan": {
+    "A": "Benar —<br>Langkah 1: Indeks Harga Agregatif Sederhana dihitung dengan rumus (ΣPn / ΣP0) × 100, TANPA melibatkan data jumlah/kuantitas barang (kolom jumlah pada soal ini sengaja disertakan sebagai pengecoh, relevan untuk jenis indeks lain seperti Laspeyres atau Paasche, bukan untuk indeks agregatif sederhana).<br>Langkah 2: ΣPn (2023) = 35.000 + 25.000 + 75.000 = 135.000. ΣP0 (2022) = 28.000 + 21.000 + 65.000 = 114.000.<br>Langkah 3: Indeks = (135.000 / 114.000) × 100 = 118,42.<br>Jadi nilai indeksnya 118,42.",
+    "B": "Salah — 119,50 tidak sesuai dengan hasil (ΣPn/ΣP0)×100 menggunakan data harga yang diberikan; kemungkinan berasal dari kekeliruan memasukkan data kuantitas ke dalam rumus.",
+    "C": "Salah — 119,58 tidak sesuai dengan rumus Indeks Harga Agregatif Sederhana yang murni membandingkan jumlah harga, bukan rata-rata tertimbang kuantitas.",
+    "D": "Salah — 119,59 juga bukan hasil dari (ΣPn/ΣP0)×100; angka ini kemungkinan muncul dari penggunaan data kuantitas yang seharusnya tidak dipakai pada indeks jenis ini.",
+    "E": "Salah — 119,67 tidak sesuai dengan perhitungan indeks agregatif sederhana berdasarkan data harga yang diberikan."
+   }
+  },
+  {
+   "id": 1016,
+   "subElemenKode": "05",
+   "elemen": "Indeks Harga dan Inflasi",
+   "subElemen": "Indeks Harga dan Inflasi",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menghitung dan menganalisis laju inflasi antar jenis barang",
+   "soal": "Berikut adalah data indeks harga tiga jenis makanan di Indonesia dengan tahun 2022 sebagai tahun dasar (indeks = 100).\n\nDaging: 2022 = 100, 2023 = 109, 2024 = 114, 2025 = 117\nBuah-buahan: 2022 = 100, 2023 = 106, 2024 = 107, 2025 = 108\nBeras: 2022 = 100, 2023 = 112, 2024 = 113, 2025 = 114\n\nJenis makanan yang memberikan dampak paling besar terhadap inflasi pada tahun 2025 adalah ....",
+   "opsi": {
+    "A": "Daging, karena mengalami kenaikan indeks sebesar 17% dibandingkan tahun dasar, yang merupakan kenaikan terbesar di antara ketiganya",
+    "B": "Beras, karena merupakan bahan pangan pokok masyarakat Indonesia",
+    "C": "Buah-buahan, karena memiliki laju inflasi paling rendah sehingga sangat berdampak terhadap inflasi",
+    "D": "Ketiga jenis makanan memiliki laju inflasi yang sama pada tahun 2025 sehingga memberi pengaruh yang sama",
+    "E": "Buah-buahan dan beras merupakan penyumbang inflasi terbesar karena nilai indeksnya yang tinggi"
+   },
+   "kunci": "A",
+   "pembahasan": {
+    "A": "Benar —<br>Langkah 1: hitung kenaikan indeks tiap makanan dari tahun dasar (2022=100) ke 2025: daging (117−100)/100 = 17%; buah-buahan (108−100)/100 = 8%; beras (114−100)/100 = 14%.<br>Langkah 2: daging memiliki kenaikan indeks terbesar (17%) dibanding beras (14%) dan buah-buahan (8%).<br>Langkah 3: bila dihitung tahun ke tahun (2024 ke 2025) pun daging tetap unggul, naik (117−114)/114 ≈ 2,63%, dibanding buah-buahan ≈ 0,93% dan beras ≈ 0,88%.<br>Jadi daging adalah penyumbang dampak inflasi terbesar pada tahun 2025.",
+    "B": "Salah — kenaikan indeks beras (14% dari tahun dasar) lebih kecil dibanding daging (17%), sehingga beras bukan penyumbang inflasi terbesar meski merupakan bahan pokok.",
+    "C": "Salah — pernyataan ini kontradiktif: buah-buahan disebut memiliki laju inflasi PALING RENDAH namun diklaim SANGAT BERDAMPAK, dua klaim yang saling bertentangan.",
+    "D": "Salah — indeks ketiga jenis makanan pada 2025 jelas berbeda (117, 108, dan 114), sehingga laju inflasi dan pengaruhnya terhadap inflasi juga berbeda.",
+    "E": "Salah — indeks daging (117) naik paling tinggi dibanding buah-buahan (108) dan beras (114), sehingga daginglah penyumbang terbesar, bukan buah-buahan dan beras."
+   }
+  },
+  {
+   "id": 1017,
+   "subElemenKode": "06",
+   "elemen": "Bank Sentral dan Kebijakan Moneter",
+   "subElemen": "Bank Sentral dan Kebijakan Moneter",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK Kategori",
+   "indikator": "Menentukan benar/salah pernyataan tentang peran bank sentral",
+   "soal": "Bank sentral di suatu negara memiliki peran mengatur dan menjaga kelancaran sistem pembayaran di dalam negeri untuk mendorong perputaran arus barang dan jasa maupun transaksi ekonomi lainnya.\n\nTentukan Benar atau Salah untuk setiap pernyataan berikut mengenai kebijakan bank sentral dalam menjaga kelancaran sistem pembayaran.",
+   "opsi": {
+    "A": "Mencetak dan mengedarkan uang kartal untuk memenuhi kebutuhan masyarakat akan uang tunai",
+    "B": "Menciptakan inovasi pada sistem pembayaran, seperti uang elektronik, dompet digital, atau fasilitas pembayaran berbasis kode QR",
+    "C": "Memberikan izin kepada lembaga keuangan, baik bank maupun nonbank, untuk menyelenggarakan jasa sistem pembayaran dan mengawasinya",
+    "D": null,
+    "E": null
+   },
+   "kunci": "A. Benar, B. Benar, C. Benar",
+   "pembahasan": {
+    "A": "Benar — mencetak dan mengedarkan uang kartal adalah fungsi dasar bank sentral sebagai satu-satunya lembaga berwenang mengeluarkan uang tunai, mendukung kelancaran sistem pembayaran.",
+    "B": "Benar — bank sentral aktif mendorong inovasi dan digitalisasi sistem pembayaran nasional (seperti QRIS di Indonesia) agar transaksi semakin efisien dan lancar.",
+    "C": "Benar — memberi izin dan mengawasi penyelenggara jasa sistem pembayaran (bank maupun nonbank) merupakan fungsi regulasi bank sentral untuk memastikan sistem pembayaran berjalan aman dan lancar."
+   }
+  },
+  {
+   "id": 1018,
+   "subElemenKode": "06",
+   "elemen": "Bank Sentral dan Kebijakan Moneter",
+   "subElemen": "Bank Sentral dan Kebijakan Moneter",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK MCMA",
+   "indikator": "Menganalisis instrumen kebijakan moneter Bank Indonesia",
+   "soal": "Bank Indonesia sebagai otoritas moneter bertugas menjaga kestabilan nilai mata uang rupiah melalui pengaturan jumlah uang beredar di dalam negeri, dengan menetapkan dan menjalankan kebijakan moneter.\n\nInstrumen kebijakan moneter yang tepat digunakan Bank Indonesia sesuai kondisi berikut adalah .... (Jawaban benar lebih dari satu)",
+   "opsi": {
+    "A": "Peningkatan suku bunga acuan dilakukan saat jumlah uang beredar sedikit",
+    "B": "Penjualan Sertifikat Bank Indonesia (SBI) kepada masyarakat dilakukan untuk meningkatkan jumlah uang beredar",
+    "C": "Pengetatan persyaratan kredit dilakukan saat jumlah uang beredar banyak",
+    "D": "Peningkatan reserve requirement ratio (giro wajib minimum) dilakukan untuk mengurangi jumlah uang beredar",
+    "E": "Instrumen moral suasion dapat digunakan baik pada kebijakan uang ketat maupun uang longgar"
+   },
+   "kunci": "C, D, dan E",
+   "pembahasan": {
+    "A": "Salah — arahnya terbalik. Suku bunga acuan dinaikkan justru saat jumlah uang beredar BANYAK/berlebih, sebagai kebijakan uang ketat untuk menguranginya, bukan saat uang beredar sedikit.",
+    "B": "Salah — arahnya terbalik. Penjualan SBI (operasi pasar terbuka) menarik dana dari masyarakat ke bank sentral, sehingga justru MENGURANGI jumlah uang beredar, bukan meningkatkannya.",
+    "C": "Benar — pengetatan persyaratan kredit adalah instrumen kebijakan uang ketat yang tepat digunakan saat jumlah uang beredar berlebih, untuk menekan penyaluran kredit baru.",
+    "D": "Benar — semakin tinggi giro wajib minimum (reserve requirement ratio), semakin sedikit dana yang bisa disalurkan bank sebagai kredit, sehingga efektif mengurangi jumlah uang beredar.",
+    "E": "Benar — moral suasion bersifat persuasif/imbauan dan fleksibel, dapat digunakan bank sentral baik untuk mendorong kebijakan uang ketat maupun uang longgar sesuai kebutuhan."
+   }
+  },
+  {
+   "id": 1019,
+   "subElemenKode": "06",
+   "elemen": "Bank Sentral dan Kebijakan Moneter",
+   "subElemen": "Bank Sentral dan Kebijakan Moneter",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK MCMA",
+   "indikator": "Menganalisis dampak kebijakan suku bunga acuan terhadap perekonomian",
+   "soal": "Laju inflasi di dalam negeri meningkat dari 5% menjadi 11% dalam waktu satu tahun, yang memperlambat pertumbuhan ekonomi dari 6% menjadi 4%. Sebagai otoritas moneter, Bank Sentral menaikkan suku bunga acuan dari 3% menjadi 5% untuk merespons kondisi tersebut.\n\nDampak yang tepat dari kebijakan Bank Sentral tersebut terhadap perekonomian adalah .... (Jawaban benar lebih dari satu)",
+   "opsi": {
+    "A": "Masyarakat cenderung mengurangi konsumsi",
+    "B": "Jumlah uang beredar di masyarakat berkurang",
+    "C": "Peningkatan permintaan barang dan jasa di pasar",
+    "D": "Peningkatan biaya pinjaman di masyarakat",
+    "E": "Peningkatan investasi oleh pihak swasta"
+   },
+   "kunci": "A, B, dan D",
+   "pembahasan": {
+    "A": "Benar — suku bunga tinggi mendorong masyarakat lebih memilih menabung dan mengurangi belanja/konsumsi karena imbal hasil menabung menjadi lebih menarik.",
+    "B": "Benar — menaikkan suku bunga acuan adalah kebijakan uang ketat yang bertujuan dan berdampak mengurangi jumlah uang beredar di masyarakat.",
+    "C": "Salah — arahnya terbalik. Kebijakan uang ketat justru meredam permintaan barang dan jasa (karena biaya pinjaman naik dan masyarakat menabung lebih banyak), bukan meningkatkannya.",
+    "D": "Benar — suku bunga acuan yang naik langsung menaikkan suku bunga kredit/pinjaman di masyarakat, sehingga biaya pinjaman meningkat.",
+    "E": "Salah — arahnya terbalik. Biaya modal yang lebih mahal akibat suku bunga tinggi justru MENGHAMBAT/menurunkan minat investasi swasta, bukan meningkatkannya."
+   }
+  },
+  {
+   "id": 1020,
+   "subElemenKode": "07",
+   "elemen": "Kebijakan Fiskal dan Perpajakan",
+   "subElemen": "Kebijakan Fiskal dan Perpajakan",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Mengidentifikasi fungsi pajak dalam kebijakan insentif investasi",
+   "soal": "Pemerintah berencana meningkatkan investasi asing di dalam negeri untuk mendorong pertumbuhan ekonomi dan menekan tingkat pengangguran. Untuk itu, pemerintah menyusun kebijakan pemberian keringanan pajak bagi investor asing yang bersedia menanamkan modalnya dengan persyaratan tertentu.\n\nFungsi pajak yang paling sesuai dengan ilustrasi tersebut adalah fungsi ....",
+   "opsi": {
+    "A": "Budgetair, karena bertujuan meningkatkan penerimaan negara",
+    "B": "Alokasi, untuk mendorong pemanfaatan anggaran bagi kegiatan pemerintah",
+    "C": "Regulerend, karena digunakan untuk mengarahkan kegiatan ekonomi tertentu",
+    "D": "Stabilisasi, yang dimaksudkan untuk menciptakan kestabilan ekonomi",
+    "E": "Redistribusi pendapatan, yang dimaksudkan untuk menciptakan pemerataan pendapatan"
+   },
+   "kunci": "C",
+   "pembahasan": {
+    "A": "Salah — fungsi budgetair bertujuan MENINGKATKAN penerimaan negara, sedangkan ilustrasi menunjukkan pemerintah justru MENGURANGI (memberi keringanan) pajak, bertentangan dengan tujuan budgetair.",
+    "B": "Salah — 'fungsi alokasi' bukan istilah baku dalam empat fungsi pajak (budgetair, regulerend, stabilisasi, redistribusi); tidak relevan dengan konteks pemberian insentif pajak.",
+    "C": "Benar — pemberian keringanan pajak untuk mengarahkan investor asing menanamkan modal adalah contoh fungsi regulerend (fungsi mengatur), yaitu pajak digunakan sebagai instrumen untuk mendorong perilaku ekonomi tertentu, bukan sekadar mengumpulkan penerimaan negara.",
+    "D": "Salah — fungsi stabilisasi berkaitan dengan menjaga kestabilan ekonomi (misalnya mengendalikan inflasi), bukan mendorong masuknya investasi asing.",
+    "E": "Salah — fungsi redistribusi berkaitan dengan pemerataan pendapatan antarmasyarakat, tidak relevan dengan pemberian insentif kepada investor asing."
+   }
+  },
+  {
+   "id": 1021,
+   "subElemenKode": "07",
+   "elemen": "Kebijakan Fiskal dan Perpajakan",
+   "subElemen": "Kebijakan Fiskal dan Perpajakan",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK MCMA",
+   "indikator": "Menganalisis karakteristik dan fungsi pajak kendaraan bermotor",
+   "soal": "Dani memiliki sebuah mobil dan sepeda motor sehingga setiap tahun harus membayar Pajak Kendaraan Bermotor (PKB) untuk keduanya. Dana penerimaan pajak tersebut dikelola pemerintah untuk memperbaiki fasilitas umum dan memberikan bantuan kepada masyarakat yang membutuhkan.\n\nPernyataan yang tepat berkaitan dengan pajak yang dibayarkan Dani adalah .... (Jawaban benar lebih dari satu)",
+   "opsi": {
+    "A": "Pajak Kendaraan Bermotor dibayarkan kepada pemerintah pusat",
+    "B": "Salah satu fungsi pajak pada ilustrasi tersebut adalah fungsi alokasi, karena dananya digunakan memperbaiki fasilitas umum",
+    "C": "Pajak yang dibayarkan Dani merupakan jenis pajak langsung",
+    "D": "Dani menerima kontraprestasi langsung setelah membayar pajak tersebut",
+    "E": "Fungsi redistribusi pendapatan pada pajak bertujuan menciptakan pemerataan pendapatan"
+   },
+   "kunci": "B, C, dan E",
+   "pembahasan": {
+    "A": "Salah — PKB adalah pajak DAERAH, dipungut dan menjadi pendapatan pemerintah provinsi, bukan pemerintah pusat.",
+    "B": "Benar — dana pajak yang digunakan untuk memperbaiki fasilitas umum sesuai dengan fungsi alokasi, yaitu pajak digunakan untuk membiayai pembangunan yang bermanfaat bagi masyarakat luas.",
+    "C": "Benar — PKB dibayarkan langsung oleh pemilik kendaraan dan tidak dapat dialihkan ke pihak lain, sesuai ciri khas pajak langsung.",
+    "D": "Salah — ciri utama pajak (berbeda dari retribusi) adalah TIDAK ADA balas jasa/kontraprestasi langsung yang diterima pembayar pajak; manfaatnya bersifat kolektif/tidak langsung melalui fasilitas umum.",
+    "E": "Benar — ini definisi baku fungsi redistribusi pendapatan, sesuai dengan penggunaan dana pajak untuk bantuan masyarakat kurang mampu pada ilustrasi."
+   }
+  },
+  {
+   "id": 1022,
+   "subElemenKode": "08",
+   "elemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia",
+   "subElemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia (BUMN, BUMD, BUMS, dan Koperasi)",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK MCMA",
+   "indikator": "Menganalisis solusi strategi bersaing bagi badan usaha",
+   "soal": "CV Maju Lancar adalah produsen sepatu pantofel yang cukup besar di Kota Bandung dan menjual produknya melalui toko yang berada di pusat kota. Harga sepatu yang dijual masih mampu bersaing dengan sepatu pantofel impor dengan kualitas yang tidak jauh berbeda. Namun, selama tiga bulan terakhir perusahaan mengalami penurunan penjualan akibat persaingan dengan merek-merek baru yang bermunculan, sementara perusahaan hanya menjual produknya melalui toko fisik saja.\n\nSolusi yang tepat untuk mengatasi masalah tersebut adalah .... (Jawaban benar lebih dari satu)",
+   "opsi": {
+    "A": "Memanfaatkan saluran pemasaran digital untuk memperluas jangkauan pasar",
+    "B": "Membuat produk yang sama persis dengan produk pesaing",
+    "C": "Menciptakan inovasi produk untuk meningkatkan keunggulan bersaing",
+    "D": "Mengurangi jenis produk yang dijual untuk menurunkan biaya produksi",
+    "E": "Meningkatkan promosi agar dapat menarik lebih banyak pelanggan"
+   },
+   "kunci": "A, C, dan E",
+   "pembahasan": {
+    "A": "Benar — langkah ini langsung menjawab kelemahan CV Maju Lancar yang hanya menjual lewat toko fisik, sehingga memperluas pasar tanpa terbatas lokasi.",
+    "B": "Salah — meniru pesaing bukan strategi bersaing yang baik karena tidak menciptakan diferensiasi produk dan berisiko menimbulkan masalah hukum terkait merek/hak kekayaan intelektual.",
+    "C": "Benar — inovasi produk langsung menjawab tekanan dari merek-merek baru yang bermunculan dengan menciptakan keunggulan yang membedakan CV Maju Lancar dari pesaing.",
+    "D": "Salah — mengurangi variasi produk tidak relevan dengan akar masalah (persaingan dan keterbatasan saluran pemasaran), bahkan berisiko menurunkan daya tarik ke konsumen.",
+    "E": "Benar — meningkatkan promosi adalah solusi langsung untuk menarik lebih banyak pelanggan dan mengatasi penurunan penjualan."
+   }
+  },
+  {
+   "id": 1023,
+   "subElemenKode": "08",
+   "elemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia",
+   "subElemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia (BUMN, BUMD, BUMS, dan Koperasi)",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menganalisis solusi manajemen personalia dalam badan usaha",
+   "soal": "PT Finansa Raya adalah perusahaan konsultan keuangan yang memberikan jasa perencanaan dan analisis keuangan, manajemen risiko dan investasi, serta konsultasi pajak dan kepatuhan. Perusahaan menghadapi masalah tingkat perputaran karyawan yang cukup tinggi karena lingkungan kerja yang kurang nyaman, jam kerja yang tidak teratur, dan kompensasi yang dirasa kurang memadai, sehingga perusahaan harus terus mengeluarkan biaya besar untuk perekrutan ulang.\n\nCara yang paling tepat untuk mengatasi masalah manajemen personalia tersebut adalah ....",
+   "opsi": {
+    "A": "Merombak seluruh pimpinan untuk mengubah budaya kerja",
+    "B": "Menciptakan lingkungan kerja yang lebih kondusif",
+    "C": "Memberikan kompensasi berbasis proyek yang dijalankan",
+    "D": "Mengganti seluruh karyawan dengan karyawan baru",
+    "E": "Menyesuaikan gaji dengan proyek yang dijalankan"
+   },
+   "kunci": "B",
+   "pembahasan": {
+    "A": "Salah — merombak seluruh pimpinan adalah langkah ekstrem yang tidak proporsional dengan akar masalah yang disebutkan (lingkungan kerja, jam kerja, dan kompensasi).",
+    "B": "Benar — akar masalah utama pada ilustrasi adalah lingkungan kerja yang buruk, jam kerja tidak teratur, dan kompensasi kurang; menciptakan lingkungan kerja yang lebih kondusif langsung menjawab akar masalah tersebut secara komprehensif.",
+    "C": "Salah — kompensasi berbasis proyek hanya menjawab satu aspek (kompensasi) dan tidak menyentuh masalah lingkungan kerja maupun jam kerja yang tidak teratur.",
+    "D": "Salah — mengganti seluruh karyawan tidak menyelesaikan akar masalah; karyawan baru akan menghadapi kondisi kerja yang sama dan berisiko keluar kembali.",
+    "E": "Salah — sama seperti opsi C, penyesuaian gaji saja tidak komprehensif karena tidak menjawab masalah lingkungan kerja dan jam kerja yang tidak teratur."
+   }
+  },
+  {
+   "id": 1024,
+   "subElemenKode": "08",
+   "elemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia",
+   "subElemen": "Manajemen Badan Usaha dalam Perekonomian Indonesia (BUMN, BUMD, BUMS, dan Koperasi)",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menghitung pembagian Sisa Hasil Usaha (SHU) koperasi",
+   "soal": "Koperasi Sahabat memiliki data keuangan pada akhir tahun sebagai berikut.\n\nTotal Sisa Hasil Usaha (SHU) = Rp150.000.000,00\nTotal simpanan anggota = Rp120.000.000,00\nTotal penjualan/omzet koperasi = Rp300.000.000,00\nJasa usaha = 50% dari SHU\nJasa modal = 30% dari SHU\nJasa pengurus = 10% dari SHU\nJasa lain-lain = 10% dari SHU\n\nKoperasi memiliki 10 orang pengurus. Ferdi, salah satu pengurus koperasi, memiliki simpanan di koperasi sebesar Rp3.000.000,00 dan total belanja/transaksi di koperasi sebesar Rp15.000.000,00.\n\nBesar SHU yang diterima Ferdi adalah ....",
+   "opsi": {
+    "A": "Rp2.625.000,00",
+    "B": "Rp3.750.000,00",
+    "C": "Rp4.875.000,00",
+    "D": "Rp5.250.000,00",
+    "E": "Rp6.375.000,00"
+   },
+   "kunci": "E",
+   "pembahasan": {
+    "A": "Salah — Rp2.625.000,00 hanya menjumlahkan bagian jasa modal dan jasa pengurus Ferdi, terlupa menghitung jasa usahanya.",
+    "B": "Salah — Rp3.750.000,00 hanya jasa usaha Ferdi saja, terlupa menghitung jasa modal dan jasa pengurusnya.",
+    "C": "Salah — Rp4.875.000,00 hanya menjumlahkan jasa usaha dan jasa modal, terlupa bahwa Ferdi juga berstatus pengurus sehingga berhak atas bagian jasa pengurus.",
+    "D": "Salah — Rp5.250.000,00 hanya menjumlahkan jasa usaha dan jasa pengurus, terlupa menghitung jasa modal dari simpanan Ferdi.",
+    "E": "Benar — karena Ferdi berstatus anggota sekaligus pengurus, SHU-nya terdiri dari tiga komponen:<br>Langkah 1 (jasa usaha): (150.000.000 × 50%) × (15.000.000 / 300.000.000) = 75.000.000 × 0,05 = Rp3.750.000,00.<br>Langkah 2 (jasa modal): (150.000.000 × 30%) × (3.000.000 / 120.000.000) = 45.000.000 × 0,025 = Rp1.125.000,00.<br>Langkah 3 (jasa pengurus): (150.000.000 × 10%) ÷ 10 pengurus = Rp1.500.000,00.<br>Langkah 4: total SHU Ferdi = 3.750.000 + 1.125.000 + 1.500.000 = Rp6.375.000,00."
+   }
+  },
+  {
+   "id": 1025,
+   "subElemenKode": "09",
+   "elemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "subElemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "level": "Pemahaman (knowing)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Mengidentifikasi bentuk kerja sama ekonomi internasional",
+   "soal": "Pemerintah Indonesia, Malaysia, dan Singapura membentuk kerja sama ekonomi terbatas dengan tujuan meningkatkan pertumbuhan ekonomi di kawasan tertentu (dikenal sebagai Segitiga Pertumbuhan Indonesia-Malaysia-Singapura/SIJORI). Kerja sama tersebut dilakukan di luar kerangka ASEAN dengan fokus yang lebih sempit dibanding kerja sama regional penuh.\n\nPernyataan yang tepat mengenai bentuk kerja sama ekonomi internasional berdasarkan ilustrasi tersebut adalah ....",
+   "opsi": {
+    "A": "Kerja sama Indonesia-Malaysia-Singapura merupakan bentuk kerja sama bilateral",
+    "B": "ASEAN merupakan bentuk kerja sama regional sekaligus bilateral",
+    "C": "Anggota ASEAN berasal dari seluruh negara di dunia tanpa batas wilayah",
+    "D": "Kerja sama Indonesia-Malaysia-Singapura merupakan bentuk kerja sama subregional karena melibatkan beberapa negara dalam kawasan yang lebih sempit dibanding kerja sama regional penuh",
+    "E": "ASEAN merupakan bentuk kerja sama bilateral karena hanya melibatkan negara-negara anggota tetap"
+   },
+   "kunci": "D",
+   "pembahasan": {
+    "A": "Salah — kerja sama Indonesia-Malaysia-Singapura melibatkan TIGA negara, sedangkan definisi kerja sama bilateral hanya mencakup DUA negara; istilah bilateral tidak tepat untuk kerja sama tiga negara ini.",
+    "B": "Salah — pernyataan ini kontradiktif; ASEAN adalah kerja sama regional yang melibatkan banyak negara (multilateral), bukan sekaligus disebut bilateral (istilah khusus untuk dua negara).",
+    "C": "Salah — ASEAN memiliki batas wilayah yang jelas (kawasan Asia Tenggara) dengan keanggotaan terbatas pada negara-negara di kawasan tersebut, bukan 'tanpa batas wilayah'.",
+    "D": "Benar — kerja sama Indonesia-Malaysia-Singapura (SIJORI) melibatkan tiga negara dalam kawasan geografis yang lebih sempit dibanding kerja sama regional ASEAN secara penuh, sehingga tepat digolongkan sebagai kerja sama subregional.",
+    "E": "Salah — ASEAN melibatkan banyak negara (10 negara anggota) sehingga tergolong kerja sama multilateral dalam lingkup regional, bukan bilateral yang khusus untuk dua negara."
+   }
+  },
+  {
+   "id": 1026,
+   "subElemenKode": "09",
+   "elemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "subElemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "level": "Pemahaman (knowing)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Mengidentifikasi kebijakan yang mendukung perdagangan internasional",
+   "soal": "Setiap negara memiliki kebutuhan yang tidak dapat dipenuhi sendiri sehingga perlu melakukan kegiatan ekspor dan impor dengan negara lain. Kegiatan tersebut dapat terhambat oleh kebijakan-kebijakan perdagangan yang diterapkan oleh negara-negara yang terlibat.\n\nKebijakan yang TIDAK menghambat kegiatan perdagangan internasional antara lain kebijakan ....",
+   "opsi": {
+    "A": "Proteksi untuk melindungi produsen dalam negeri",
+    "B": "Perdagangan bebas sebagai dampak dari globalisasi",
+    "C": "Tarif impor yang dapat meningkatkan harga barang impor",
+    "D": "Embargo akibat hubungan politik yang renggang antarnegara",
+    "E": "Kuota impor yang membatasi jumlah barang masuk ke suatu negara"
+   },
+   "kunci": "B",
+   "pembahasan": {
+    "A": "Salah — proteksi membatasi masuknya barang asing untuk melindungi produsen domestik, sehingga bersifat menghambat perdagangan bebas.",
+    "B": "Benar — perdagangan bebas justru mendorong dan memfasilitasi arus barang dan jasa antarnegara sebagai dampak globalisasi, sehingga tidak bersifat menghambat perdagangan internasional.",
+    "C": "Salah — tarif impor menaikkan harga barang impor sehingga mengurangi daya saingnya di pasar domestik; ini bentuk hambatan perdagangan.",
+    "D": "Salah — embargo menghentikan hubungan dagang sama sekali dengan negara tertentu; jelas menghambat perdagangan.",
+    "E": "Salah — kuota impor membatasi jumlah barang yang boleh masuk ke suatu negara; ini juga bentuk hambatan perdagangan."
+   }
+  },
+  {
+   "id": 1027,
+   "subElemenKode": "09",
+   "elemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "subElemen": "Kerja Sama Ekonomi dan Perdagangan Internasional",
+   "level": "Penalaran (reasoning)",
+   "bentukSoal": "PGK MCMA",
+   "indikator": "Menganalisis daya saing produk ekspor Indonesia",
+   "soal": "Pemerintah mendorong produsen produk perikanan Indonesia, seperti produsen udang dan tuna, untuk mengekspor produknya dengan memenuhi standar keamanan pangan dunia, standar negara tujuan ekspor, dan standar halal dunia, termasuk sertifikasi dari Kementerian Kelautan dan Perikanan. Pemenuhan standar tersebut membuat harga produk Indonesia lebih mahal, tetapi kualitasnya dinilai lebih baik dibandingkan negara pesaing seperti Ekuador, India, Thailand, dan Filipina.\n\nPernyataan yang tepat mengenai daya saing udang dan tuna Indonesia di pasar internasional berdasarkan ilustrasi tersebut adalah .... (Jawaban benar lebih dari satu)",
+   "opsi": {
+    "A": "Udang dan tuna Indonesia memiliki daya saing tinggi karena memenuhi standar internasional",
+    "B": "Udang dan tuna dari negara lain kualitasnya lebih baik dibandingkan Indonesia",
+    "C": "Standar yang dipenuhi Indonesia dapat mendukung peningkatan ekspor produk tersebut",
+    "D": "Udang dan tuna dari negara lain sama sekali tidak memenuhi standar internasional untuk ekspor",
+    "E": "Meskipun harganya lebih mahal, udang dan tuna Indonesia tetap mampu bersaing dengan negara lain"
+   },
+   "kunci": "A, C, dan E",
+   "pembahasan": {
+    "A": "Benar — sesuai ilustrasi, produk Indonesia memenuhi standar keamanan pangan, halal, dan sertifikasi ekspor, sehingga memiliki daya saing tinggi di pasar internasional.",
+    "B": "Salah — bertentangan langsung dengan ilustrasi yang menyatakan kualitas produk Indonesia LEBIH BAIK dibandingkan Ekuador, India, Thailand, dan Filipina.",
+    "C": "Benar — standar tinggi yang dipenuhi Indonesia mendukung penerimaan produk di pasar internasional, sehingga berpotensi meningkatkan ekspor.",
+    "D": "Salah — kesimpulan ini berlebihan dan tidak didukung data; ilustrasi hanya menyatakan kualitas Indonesia LEBIH BAIK, bukan berarti negara pesaing gagal total memenuhi standar (mereka tetap bisa mengekspor produknya).",
+    "E": "Benar — sesuai ilustrasi, meskipun harga produk Indonesia lebih mahal, kualitasnya yang lebih tinggi membuatnya tetap kompetitif di pasar internasional."
+   }
+  },
+  {
+   "id": 1028,
+   "subElemenKode": "10",
+   "elemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "subElemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "PGK Kategori",
+   "indikator": "Menganalisis pengaruh transaksi jasa terhadap persamaan akuntansi",
+   "soal": "PT Aman Lancar telah menyelesaikan sebuah jasa untuk pelanggan senilai Rp2.500.000,00. Dari nilai tersebut, baru diterima secara tunai sebesar Rp1.000.000,00, sedangkan sisanya akan diterima minggu depan.\n\nTentukan Benar atau Salah untuk setiap pernyataan berikut mengenai pengaruh transaksi tersebut terhadap persamaan dasar akuntansi.",
+   "opsi": {
+    "A": "Kas perusahaan bertambah sebesar Rp2.500.000,00",
+    "B": "Piutang usaha perusahaan bertambah sebesar Rp1.500.000,00",
+    "C": "Utang perusahaan bertambah sebesar Rp1.500.000,00",
+    "D": null,
+    "E": null
+   },
+   "kunci": "A. Salah, B. Benar, C. Salah",
+   "pembahasan": {
+    "A": "Salah — kas yang benar-benar bertambah hanya sebesar yang diterima secara tunai, yaitu Rp1.000.000,00, bukan seluruh nilai jasa Rp2.500.000,00.",
+    "B": "Benar — sisa Rp1.500.000,00 (Rp2.500.000,00 dikurangi Rp1.000.000,00 yang sudah diterima tunai) yang belum diterima dicatat sebagai piutang usaha, yaitu hak tagih perusahaan kepada pelanggan.",
+    "C": "Salah — piutang usaha adalah HARTA/aset milik perusahaan (hak menagih di masa depan), bukan utang/kewajiban; transaksi ini tidak menimbulkan utang sama sekali bagi PT Aman Lancar."
+   }
+  },
+  {
+   "id": 1029,
+   "subElemenKode": "10",
+   "elemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "subElemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menghitung pengaruh transaksi terhadap persamaan dasar akuntansi",
+   "soal": "Berikut adalah transaksi yang dilakukan CV Cantika Raya.\n\nTanggal 1: pemilik menginvestasikan uang senilai Rp20.000.000,00 dan peralatan senilai Rp30.000.000,00 ke dalam perusahaan.\nTanggal 3: perusahaan membeli perlengkapan senilai Rp15.000.000,00, baru dibayar tunai Rp5.000.000,00 dan sisanya akan dibayar kemudian.\n\nPengaruh kedua transaksi tersebut terhadap persamaan dasar akuntansi (Harta = Utang + Modal) yang tepat adalah ....",
+   "opsi": {
+    "A": "Rp60.000.000,00 = Rp20.000.000,00 + Rp40.000.000,00",
+    "B": "Rp60.000.000,00 = Rp50.000.000,00 + Rp10.000.000,00",
+    "C": "Rp60.000.000,00 = Rp15.000.000,00 + Rp35.000.000,00",
+    "D": "Rp60.000.000,00 = Rp10.000.000,00 + Rp50.000.000,00",
+    "E": "Rp60.000.000,00 = Rp30.000.000,00 + Rp30.000.000,00"
+   },
+   "kunci": "D",
+   "pembahasan": {
+    "A": "Salah — Utang Rp20.000.000,00 dan Modal Rp40.000.000,00 tidak sesuai hasil perhitungan; seharusnya utang Rp10.000.000,00 dan modal Rp50.000.000,00.",
+    "B": "Salah — posisi angka utang dan modal tertukar; nilai Rp50.000.000,00 dan Rp10.000.000,00 terbalik dari yang seharusnya (modal Rp50.000.000,00 dan utang Rp10.000.000,00).",
+    "C": "Salah — Rp15.000.000,00 tampaknya berasal dari kekeliruan menganggap SELURUH nilai perlengkapan sebagai utang, padahal Rp5.000.000,00 sudah dibayar tunai sehingga utang yang tersisa hanya Rp10.000.000,00.",
+    "D": "Benar —<br>Langkah 1 (transaksi tanggal 1): investasi menambah Harta (Kas Rp20.000.000,00 + Peralatan Rp30.000.000,00 = Rp50.000.000,00) dan Modal Rp50.000.000,00, tanpa utang.<br>Langkah 2 (transaksi tanggal 3): pembelian perlengkapan Rp15.000.000,00 menambah Harta (Perlengkapan), dibayar tunai Rp5.000.000,00 (mengurangi Kas) dan sisa Rp10.000.000,00 menjadi Utang.<br>Langkah 3: Harta akhir = Kas (20jt−5jt=15jt) + Peralatan (30jt) + Perlengkapan (15jt) = Rp60.000.000,00. Utang = Rp10.000.000,00. Modal = Rp50.000.000,00.<br>Terbukti: 60.000.000 = 10.000.000 + 50.000.000, sesuai opsi ini.",
+    "E": "Salah — Rp30.000.000,00 dan Rp30.000.000,00 tidak sesuai dengan hasil perhitungan transaksi manapun pada ilustrasi."
+   }
+  },
+  {
+   "id": 1030,
+   "subElemenKode": "10",
+   "elemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "subElemen": "Persamaan Dasar Akuntansi dan Laporan Keuangan",
+   "level": "Penerapan (applying)",
+   "bentukSoal": "Pilihan Ganda",
+   "indikator": "Menghitung laba dan modal akhir dari laporan keuangan",
+   "soal": "Berikut adalah data keuangan Firma Maju Jaya pada akhir periode.\n\nModal awal = Rp25.000.000,00\nPrive = Rp1.500.000,00\nPendapatan jasa = Rp42.500.000,00\nBeban gaji = Rp8.500.000,00\nBeban listrik, air, dan telepon (LAT) = Rp2.500.000,00\nBeban lain-lain = Rp3.000.000,00\n\nKondisi keuangan yang tepat berdasarkan data tersebut adalah ....",
+   "opsi": {
+    "A": "Perusahaan menghasilkan laba sebesar Rp27.000.000,00",
+    "B": "Perusahaan mengalami kerugian sebesar Rp28.500.000,00",
+    "C": "Penambahan modal perusahaan sebesar Rp28.500.000,00",
+    "D": "Modal akhir perusahaan sebesar Rp2.000.000.000,00",
+    "E": "Modal akhir perusahaan sebesar Rp52.000.000,00"
+   },
+   "kunci": "E",
+   "pembahasan": {
+    "A": "Salah — Rp27.000.000,00 muncul jika prive (Rp1.500.000,00) keliru dikurangkan langsung dari laba usaha; padahal prive mengurangi MODAL, bukan mengurangi nilai laba usaha itu sendiri. Laba yang benar adalah Rp28.500.000,00.",
+    "B": "Salah — arahnya terbalik. Pendapatan (Rp42.500.000,00) lebih besar dari total beban (Rp14.000.000,00), sehingga perusahaan memperoleh LABA, bukan rugi, meskipun angka Rp28.500.000,00-nya sendiri benar sebagai besaran selisih.",
+    "C": "Salah — pernyataan ini tidak memperhitungkan prive. Penambahan modal bersih setelah dikurangi prive adalah Rp28.500.000,00 − Rp1.500.000,00 = Rp27.000.000,00, bukan Rp28.500.000,00 utuh.",
+    "D": "Salah — nilai ini jelas tidak masuk akal dari sisi besaran (miliaran, bukan jutaan) dibandingkan seluruh komponen data yang tersedia.",
+    "E": "Benar —<br>Langkah 1: hitung laba = Pendapatan jasa − (Beban gaji + Beban LAT + Beban lain-lain) = 42.500.000 − (8.500.000 + 2.500.000 + 3.000.000) = 42.500.000 − 14.000.000 = Rp28.500.000,00 (laba).<br>Langkah 2: Modal akhir = Modal awal + Laba − Prive = 25.000.000 + 28.500.000 − 1.500.000 = Rp52.000.000,00."
    }
   }
  ]
