@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title>Latihan &amp; Ujian Online — Ekonomi (Bank Soal TKA)</title>
+<title>Latihan &amp; Ujian Online — Bank Soal TKA</title>
 <style>
   :root{
     --navy:#0f2a4a; --navy-light:#1e4d80; --gold:#c9a227; --gold-light:#e8d182;
@@ -131,7 +131,7 @@
 <body>
 
 <header>
-  <h1>Latihan &amp; Ujian Online — Ekonomi</h1>
+  <h1>Latihan &amp; Ujian Online</h1>
   <p>Bank Soal TKA · MAN 2 Kota Pekanbaru</p>
 </header>
 
@@ -139,10 +139,13 @@
 
   <!-- SCREEN 1: START -->
   <section id="screen-start" class="card">
+    <label for="inp-mapel">Mata Pelajaran</label>
+    <select id="inp-mapel"></select>
+
     <div id="wrap-kode">
       <label for="inp-kode">Kode Akses dari Guru</label>
       <input type="text" id="inp-kode" placeholder="Masukkan kode akses">
-      <div class="hint">Tanyakan kode akses ke guru Ekonomi. Cukup dimasukkan sekali di HP/laptop ini.</div>
+      <div class="hint">Tanyakan kode akses ke guru. Cukup dimasukkan sekali di HP/laptop ini.</div>
     </div>
 
     <label for="inp-nama">Nama Lengkap</label>
@@ -230,7 +233,7 @@
 
 </main>
 
-<footer>Dibuat untuk mendukung latihan mandiri siswa · Ekonomi</footer>
+<footer>Dibuat untuk mendukung latihan mandiri siswa · MAN 2 Kota Pekanbaru</footer>
 
 <script>
 /* ====================== KONFIGURASI ====================== */
@@ -247,8 +250,26 @@ if(localStorage.getItem("kodeAksesOk") === "1"){
   if(wk) wk.classList.add("hidden");
 }
 
+/* ====================== DAFTAR MATA PELAJARAN ======================
+   Tambah mapel baru di sini: kode singkat, nama tampil, dan nama file
+   bank_soal-nya (harus ada satu folder dengan index.html). */
+const MAPEL_LIST = [
+  { kode: "EKO",  nama: "Ekonomi",                      file: "bank_soal.json" },
+  { kode: "BIO",  nama: "Biologi",                       file: "bank_soal_biologi.json" },
+  { kode: "FIS",  nama: "Fisika",                        file: "bank_soal_fisika.json" },
+  { kode: "GEO",  nama: "Geografi",                      file: "bank_soal_geografi.json" },
+  { kode: "KIM",  nama: "Kimia",                         file: "bank_soal_kimia.json" },
+  { kode: "SOS",  nama: "Sosiologi",                     file: "bank_soal_sosiologi.json" },
+  { kode: "PPKN", nama: "PPKn",                          file: "bank_soal_ppkn.json" },
+  { kode: "SEJ",  nama: "Sejarah",                       file: "bank_soal_sejarah.json" },
+  { kode: "ARB",  nama: "Bahasa Arab",                   file: "bank_soal_bahasa_arab.json" },
+  { kode: "BIGL", nama: "Bahasa Inggris Tingkat Lanjut", file: "bank_soal_bahasa_inggris_lanjut.json" },
+];
+
 /* ====================== STATE ====================== */
-let BANK = null;               // { subElemen:[], soal:[] }
+let BANK = null;               // { subElemen:[], soal:[] } — bank mapel yang sedang dipilih
+let mapelSekarang = MAPEL_LIST[0];
+const bankCache = {};          // cache per file, supaya ganti mapel tidak fetch ulang
 let soalTerpilih = [];         // array soal untuk sesi berjalan (sudah diacak & dipotong)
 let jawabanSiswa = [];         // paralel dgn soalTerpilih: {opsi, benar, sudahDicek}
 let idxSekarang = 0;
@@ -258,23 +279,42 @@ let sisaDetik = 0;
 let waktuMulai = null;
 
 /* ====================== LOAD DATA ====================== */
-fetch("bank_soal.json")
-  .then(r => r.json())
-  .then(data => {
-    BANK = data;
-    const sel = document.getElementById("inp-subelemen");
-    sel.innerHTML = '<option value="ALL">Semua Sub-Elemen (campur)</option>' +
-      data.subElemen.map(s => `<option value="${s.kode}">${s.kode} — ${s.nama}</option>`).join("");
-    document.getElementById("loading-hint").textContent =
-      `Bank soal siap: ${data.soal.length} soal dari ${data.subElemen.length} sub-elemen.`;
-    document.getElementById("btn-mulai").disabled = false;
-  })
-  .catch(err => {
-    document.getElementById("loading-hint").textContent =
-      "Gagal memuat bank_soal.json. Pastikan file ini ada satu folder dengan index.html.";
-    console.error(err);
-  });
-document.getElementById("btn-mulai").disabled = true;
+function muatMapel(mapel){
+  document.getElementById("btn-mulai").disabled = true;
+  document.getElementById("loading-hint").textContent = `Memuat bank soal ${mapel.nama}…`;
+  if(bankCache[mapel.file]){
+    terapkanBank(bankCache[mapel.file]);
+    return;
+  }
+  fetch(mapel.file)
+    .then(r => r.json())
+    .then(data => {
+      bankCache[mapel.file] = data;
+      terapkanBank(data);
+    })
+    .catch(err => {
+      document.getElementById("loading-hint").textContent =
+        `Gagal memuat ${mapel.file}. Pastikan file ini ada satu folder dengan index.html.`;
+      console.error(err);
+    });
+}
+function terapkanBank(data){
+  BANK = data;
+  const sel = document.getElementById("inp-subelemen");
+  sel.innerHTML = '<option value="ALL">Semua Sub-Elemen (campur)</option>' +
+    data.subElemen.map(s => `<option value="${s.kode}">${s.kode} — ${s.nama}</option>`).join("");
+  document.getElementById("loading-hint").textContent =
+    `Bank soal siap: ${data.soal.length} soal dari ${data.subElemen.length} sub-elemen.`;
+  document.getElementById("btn-mulai").disabled = false;
+}
+
+const mapelSelEl = document.getElementById("inp-mapel");
+mapelSelEl.innerHTML = MAPEL_LIST.map(m => `<option value="${m.kode}">${m.nama}</option>`).join("");
+mapelSelEl.addEventListener("change", () => {
+  mapelSekarang = MAPEL_LIST.find(m => m.kode === mapelSelEl.value) || MAPEL_LIST[0];
+  muatMapel(mapelSekarang);
+});
+muatMapel(mapelSekarang);
 
 /* ====================== MODE TOGGLE ====================== */
 document.querySelectorAll(".mode-btn").forEach(btn => {
@@ -396,7 +436,7 @@ document.getElementById("btn-mulai").addEventListener("click", () => {
   if(localStorage.getItem("kodeAksesOk") !== "1"){
     const kodeInput = normalizeKode(document.getElementById("inp-kode").value);
     if(kodeInput !== ACCESS_CODE_NORM){
-      alert("Kode akses salah atau belum diisi. Tanyakan kode akses yang benar ke guru Ekonomi.");
+      alert("Kode akses salah atau belum diisi. Tanyakan kode akses yang benar ke guru.");
       return;
     }
     localStorage.setItem("kodeAksesOk", "1");
@@ -463,7 +503,7 @@ function tampilkanSoal(){
 
   document.getElementById("quiz-progress").textContent = `Soal ${idxSekarang+1} dari ${soalTerpilih.length}`;
   document.getElementById("progress-fill").style.width = `${((idxSekarang+1)/soalTerpilih.length)*100}%`;
-  document.getElementById("quiz-tag").textContent = `${q.subElemenKode} · ${q.level || ""}`;
+  document.getElementById("quiz-tag").textContent = `${mapelSekarang.nama} · ${q.subElemenKode} · ${q.level || ""}`;
   document.getElementById("quiz-soal").textContent = q.soal;
 
   const gambarEl = document.getElementById("quiz-gambar");
@@ -709,7 +749,7 @@ function selesaikanUjian(){
     return `
       <div class="review-item">
         <div class="review-head">
-          <span>Soal ${i+1} · ${q.subElemenKode} · ${q.level || ""}</span>
+          <span>Soal ${i+1} · ${mapelSekarang.nama} · ${q.subElemenKode} · ${q.level || ""}</span>
           <span class="${jw.benar ? 'badge-ok' : 'badge-no'}">${jw.benar ? "Benar" : "Salah"}</span>
         </div>
         <div class="soal-text" style="font-size:.88rem;margin-bottom:8px;">${q.soal}</div>
@@ -726,6 +766,7 @@ function selesaikanUjian(){
   kirimHasilKeSheet({
     nama: document.getElementById("inp-nama").value.trim(),
     kelas: document.getElementById("inp-kelas").value.trim(),
+    mapel: mapelSekarang.nama,
     subElemen: document.getElementById("inp-subelemen").selectedOptions[0].textContent,
     mode: mode,
     jumlahSoal: totalSoal,
